@@ -1,0 +1,392 @@
+{
+  "6d349d20cd79": {
+    "asset": "koleksi/6d349d20cd79.jpg",
+    "origin": "Ringkasan isi Word (bukan tata letak halaman asli)",
+    "sourceAsset": "118e3124fc3c14d2c733b183.docx",
+    "sourceHash": "118e3124fc3c14d2c733b183ee4f469b52f61f3f12f7321ba2ac2715fdea59fc"
+  },
+  "60c73dc74b77": {
+    "asset": "koleksi/60c73dc74b77.jpg",
+    "origin": "Gambar asli",
+    "sourceAsset": "f6b9ef8b8dce43ef7ca16561.png",
+    "sourceHash": "f6b9ef8b8dce43ef7ca1656101e64e0e501a06aaeccee9a0b94c16ee72e51777"
+  },
+  "c43b6fc81879": {
+    "asset": "koleksi/c43b6fc81879.jpg",
+    "origin": "Gambar asli",
+    "sourceAsset": "fe59c6d58ec9bcc0021011b2.png",
+    "sourceHash": "fe59c6d58ec9bcc0021011b2ee1751a6acb7f50054095bb16049083405d40829"
+  },
+  "aa5d3dd14a78": {
+    "asset": "koleksi/aa5d3dd14a78.jpg",
+    "origin": "Cuplikan video asli",
+    "sourceAsset": "0d864e2a847bfa7ba53b3c5a.mp4",
+    "sourceHash": "0d864e2a847bfa7ba53b3c5a09c0ea86334f6d6548e36d4b641222b6a9b12802"
+  },
+  "7f349944ab46": {
+    "asset": "koleksi/7f349944ab46.jpg",
+    "origin": "Cuplikan video asli",
+    "sourceAsset": "12cd329d059e2fdf84c362ba.avi",
+    "sourceHash": "12cd329d059e2fdf84c362baf492d35d673b053d4e89db36afac04c0a1e666f1"
+  },
+  "60ef05c3f508": {
+    "asset": "koleksi/60ef05c3f508.jpg",
+    "origin": "Tampilan isometris geometri STL asli",
+    "sourceAsset": "d4ca8c1c575fc00081b0262e.stl",
+    "sourceHash": "d4ca8c1c575fc00081b0262efd2c15bda30ee9990b6c184583706955f88ab20f"
+  },
+  "b5101dcba962": {
+    "asset": "koleksi/b5101dcba962.jpg",
+    "origin": "Tampilan isometris geometri STL asli",
+    "sourceAsset": "786e061f45a58f7ff57a2e20.stl",
+    "sourceHash": "786e061f45a58f7ff57a2e204cdf531de914b5c571faf05dfc530de5b3d6c342"
+  },
+  "7ba91efc3934": {
+    "asset": "koleksi/7ba91efc3934.jpg",
+    "origin": "Tampilan isometris geometri STL asli",
+    "sourceAsset": "fc38e9d6b15e3fc8b78f78e5.stl",
+    "sourceHash": "fc38e9d6b15e3fc8b78f78e565ee9982e4915e8630ac6c33556e4775abb56ba7"
+  },
+  "d922d101519c": {
+    "asset": "koleksi/d922d101519c.jpg",
+    "origin": "Tampilan isometris geometri STL asli",
+    "sourceAsset": "92e706b95181673349e09c11.stl",
+    "sourceHash": "92e706b95181673349e09c1130b7c1a1952bb1397ea86226dd591dfbe90eaf66"
+  },
+  "389b94a9727d": {
+    "asset": "koleksi/389b94a9727d.jpg",
+    "origin": "Tampilan isometris geometri STL asli",
+    "sourceAsset": "da749cb8812459f2917cbf1a.stl",
+    "sourceHash": "da749cb8812459f2917cbf1afea3d715ebcf7db648e8c695b0e74bf0dd79bc17"
+  },
+  "abfb5b13e6cf": {
+    "asset": "koleksi/abfb5b13e6cf.jpg",
+    "origin": "Tampilan isometris geometri STL asli",
+    "sourceAsset": "2dd451013628216cc53f7f73.stl",
+    "sourceHash": "2dd451013628216cc53f7f7369a734ffd6df64a4761eb077e45462f8cdc92db1"
+  },
+  "8f396928241f": {
+    "asset": "koleksi/8f396928241f.jpg",
+    "origin": "Tampilan isometris geometri STL asli",
+    "sourceAsset": "d506d2cbe04998b1f437795a.stl",
+    "sourceHash": "d506d2cbe04998b1f437795adbc30a1ca862eed94db25aa39bb2f1e72b2462bd"
+  },
+  "08a9f0ff1701": {
+    "asset": "koleksi/08a9f0ff1701.jpg",
+    "origin": "Tampilan isometris geometri STL asli",
+    "sourceAsset": "d65816d0ef46ef801acdb440.stl",
+    "sourceHash": "d65816d0ef46ef801acdb44085893fa049b1e79ee758a3bfae8421451661632d"
+  },
+  "ab828ea54e7d": {
+    "asset": "koleksi/ab828ea54e7d.jpg",
+    "origin": "Tampilan isometris geometri STL asli",
+    "sourceAsset": "2b601dd6250e6616b4ae1c8f.stl",
+    "sourceHash": "2b601dd6250e6616b4ae1c8f67e1551bc65ab24e643c54073f586c4d9d212ff4"
+  },
+  "f2b9905637ba": {
+    "asset": "koleksi/f2b9905637ba.jpg",
+    "origin": "Tampilan isometris geometri STL asli",
+    "sourceAsset": "46fc953eb1b53818ea675abb.stl",
+    "sourceHash": "46fc953eb1b53818ea675abb12ec14b5e00afe7480163e677bc542df8cd2ee52"
+  },
+  "8216da522f7f": {
+    "asset": "koleksi/8216da522f7f.jpg",
+    "origin": "Pratinjau bawaan file Fusion",
+    "sourceAsset": "d4055a2ba1980d76ad199053.f3d",
+    "sourceHash": "d4055a2ba1980d76ad1990534b27347dfc46005d72c4ac4da09964d3b6b97086"
+  },
+  "8dc2db2c6357": {
+    "asset": "koleksi/8dc2db2c6357.jpg",
+    "origin": "Pratinjau bawaan file Fusion",
+    "sourceAsset": "4a01e750d667347ca33709c4.f3d",
+    "sourceHash": "4a01e750d667347ca33709c4a1ee78e6460e7fafa64773915491a42f2b0a36e7"
+  },
+  "3ef6d04f2653": {
+    "asset": "koleksi/3ef6d04f2653.jpg",
+    "origin": "Gambar asli",
+    "sourceAsset": "2f2474b421e33af739362f6f.png",
+    "sourceHash": "2f2474b421e33af739362f6f51819014a680f306c6c4ca6d0bdafa86c97a57e3"
+  },
+  "d00e9d4a25fb": {
+    "asset": "koleksi/d00e9d4a25fb.jpg",
+    "origin": "Gambar asli",
+    "sourceAsset": "523ed9392c1a34ecc1d594fc.png",
+    "sourceHash": "523ed9392c1a34ecc1d594fcdfe0c12b2d1924eb7931de24f2ad566c13d752df"
+  },
+  "488cd842dfef": {
+    "asset": "koleksi/488cd842dfef.jpg",
+    "origin": "Halaman pertama PDF asli",
+    "sourceAsset": "486ff2f50cb8a9fa00904132.pdf",
+    "sourceHash": "486ff2f50cb8a9fa00904132195e95610b7ad9cf6f9380c1d2f2de4d2a28fcb3"
+  },
+  "d14d2fc49ef8": {
+    "asset": "koleksi/d14d2fc49ef8.jpg",
+    "origin": "Halaman pertama PDF asli",
+    "sourceAsset": "95d079f947df6e88a63a71cd.pdf",
+    "sourceHash": "95d079f947df6e88a63a71cdf015534c49e1f8d70b48efbc9b60c8cac4083295"
+  },
+  "6e31fae07cb4": {
+    "asset": "koleksi/6e31fae07cb4.jpg",
+    "origin": "Gambar asli",
+    "sourceAsset": "a72738539109cd39c20ce90c.png",
+    "sourceHash": "a72738539109cd39c20ce90c8d162c168e45891d7a924688db01cec8b4131b70"
+  },
+  "ee5ce8686e87": {
+    "asset": "koleksi/ee5ce8686e87.jpg",
+    "origin": "Halaman pertama PDF asli",
+    "sourceAsset": "711205a4fa8ef4ee4789e56b.pdf",
+    "sourceHash": "711205a4fa8ef4ee4789e56b2aa80a0fa2ecf9296477bcf933ddcb696ba228df"
+  },
+  "94491cb488bc": {
+    "asset": "koleksi/94491cb488bc.jpg",
+    "origin": "Halaman pertama PDF asli",
+    "sourceAsset": "28d5c6821d4572c5f8b4e56a.pdf",
+    "sourceHash": "28d5c6821d4572c5f8b4e56a64e7e4ef84e86700fe9511dd6da77f19c4f9de30"
+  },
+  "9187ecde214e": {
+    "asset": "koleksi/9187ecde214e.jpg",
+    "origin": "Halaman pertama PDF asli",
+    "sourceAsset": "8a01e145f735aa899846f8b8.pdf",
+    "sourceHash": "8a01e145f735aa899846f8b85f9af42706a7f4a38c2b503f08089a388367c6b5"
+  },
+  "b82b12d29b21": {
+    "asset": "koleksi/b82b12d29b21.jpg",
+    "origin": "Halaman pertama PDF asli",
+    "sourceAsset": "6854469f2c5b79f40628fa9b.pdf",
+    "sourceHash": "6854469f2c5b79f40628fa9b65c97118b90a0436dba3dcd38fef26c983853a84"
+  },
+  "e9db986e4617": {
+    "asset": "koleksi/e9db986e4617.jpg",
+    "origin": "Halaman pertama PDF asli",
+    "sourceAsset": "29ef60ce085bdde85806bff6.pdf",
+    "sourceHash": "29ef60ce085bdde85806bff6858d3a91dea2188967f3dbe94c7f5bb9ea2df863"
+  },
+  "920b4c66acdb": {
+    "asset": "koleksi/920b4c66acdb.jpg",
+    "origin": "PDF jobsheet yang sesuai dengan sumber Word",
+    "sourceAsset": "3b53d892edbbd406a1577546.docx",
+    "sourceHash": "3b53d892edbbd406a1577546ed3332c6541cfbe5c82b70ea23c3d9f1314f141a"
+  },
+  "7f2e9ccd0e28": {
+    "asset": "koleksi/7f2e9ccd0e28.jpg",
+    "origin": "Halaman pertama PDF asli",
+    "sourceAsset": "e1e7499f35e831e3f8757098.pdf",
+    "sourceHash": "e1e7499f35e831e3f87570989b0deb8438dfe13cdb1c1f297fb3017c19519170"
+  },
+  "04ce36f8a87d": {
+    "asset": "koleksi/04ce36f8a87d.jpg",
+    "origin": "Halaman pertama PDF asli",
+    "sourceAsset": "658b297e1ce86ad5e5d79e6d.pdf",
+    "sourceHash": "658b297e1ce86ad5e5d79e6d46cfb184279cf29627996c85c4a1deb2b03fd0a8"
+  },
+  "29e4f3b762a6": {
+    "asset": "koleksi/29e4f3b762a6.jpg",
+    "origin": "Halaman pertama PDF asli",
+    "sourceAsset": "f486c5ca64a78a74143bad5e.pdf",
+    "sourceHash": "f486c5ca64a78a74143bad5eac26b1a602c5e71f23395bce7fe4df459d018646"
+  },
+  "52edf60176f2": {
+    "asset": "koleksi/52edf60176f2.jpg",
+    "origin": "Halaman pertama PDF asli",
+    "sourceAsset": "5edf4b9ca9d943c0e1d50640.pdf",
+    "sourceHash": "5edf4b9ca9d943c0e1d50640f32bf96370b8e2622b2deaa455b21d02b6cbb3f9"
+  },
+  "e14e56dcd3e8": {
+    "asset": "koleksi/e14e56dcd3e8.jpg",
+    "origin": "Halaman pertama PDF asli",
+    "sourceAsset": "19ae1f6bd8ab719e27ac52e4.pdf",
+    "sourceHash": "19ae1f6bd8ab719e27ac52e40a0b4d312d0e01d96281fe0db860effe9e184ff9"
+  },
+  "d78aa970d4a8": {
+    "asset": "koleksi/d78aa970d4a8.jpg",
+    "origin": "Halaman pertama PDF asli",
+    "sourceAsset": "48365cde687367a1e0710613.pdf",
+    "sourceHash": "48365cde687367a1e07106132941f3c652f86614461a9a157e4cba098dfb1273"
+  },
+  "f4b118024761": {
+    "asset": "koleksi/f4b118024761.jpg",
+    "origin": "Halaman pertama PDF asli",
+    "sourceAsset": "6bb5f7f5cc76df1e9d28bc53.pdf",
+    "sourceHash": "6bb5f7f5cc76df1e9d28bc534f6902e53fb69ab8c72ef75bfe1427946834e9b6"
+  },
+  "45095149ea25": {
+    "asset": "koleksi/45095149ea25.jpg",
+    "origin": "Halaman pertama PDF asli",
+    "sourceAsset": "4e8187482c3beb7c4a0d89c8.pdf",
+    "sourceHash": "4e8187482c3beb7c4a0d89c8dcb012df4e023acb4384172b9de612038ab5f369"
+  },
+  "078d8cab3717": {
+    "asset": "koleksi/078d8cab3717.jpg",
+    "origin": "Halaman pertama PDF asli",
+    "sourceAsset": "25ce04279795c34c3a366c2d.pdf",
+    "sourceHash": "25ce04279795c34c3a366c2daf398dfe0ec1dfa81156fc124c24c4884194a7f8"
+  },
+  "12c943f44fa8": {
+    "asset": "koleksi/12c943f44fa8.jpg",
+    "origin": "Halaman pertama PDF asli",
+    "sourceAsset": "b42d7012c0a7f4bf4445ea55.pdf",
+    "sourceHash": "b42d7012c0a7f4bf4445ea5595167ab7a526c0a4cd8d671b561830be127b417d"
+  },
+  "c501ce7f5e20": {
+    "asset": "koleksi/c501ce7f5e20.jpg",
+    "origin": "Halaman pertama PDF asli",
+    "sourceAsset": "8e6018a03c4f5e58c5333866.pdf",
+    "sourceHash": "8e6018a03c4f5e58c53338665a28ef66df503f81a191f9587027e5cabd36a5d7"
+  },
+  "7434e2a4425c": {
+    "asset": "koleksi/7434e2a4425c.jpg",
+    "origin": "Gambar asli",
+    "sourceAsset": "8da506eb8f4a85ba24f51284.png",
+    "sourceHash": "8da506eb8f4a85ba24f5128424dabcf4598bf9df63b6dad0248bc79ece6ded4f"
+  },
+  "7782860bd1fa": {
+    "asset": "koleksi/7782860bd1fa.jpg",
+    "origin": "Halaman pertama PDF asli",
+    "sourceAsset": "c555758b65688a4e6de3d8a9.pdf",
+    "sourceHash": "c555758b65688a4e6de3d8a9a970f710879db5d6e97e5cacaeab4acc0a3bca56"
+  },
+  "483a06c58b04": {
+    "asset": "koleksi/483a06c58b04.jpg",
+    "origin": "Halaman pertama PDF asli",
+    "sourceAsset": "3ffd4f7418c78b1fa654c4bd.pdf",
+    "sourceHash": "3ffd4f7418c78b1fa654c4bd2054b2efc9d864bd4a8f5927271a9e83caf4b064"
+  },
+  "96388a2bc69c": {
+    "asset": "koleksi/96388a2bc69c.jpg",
+    "origin": "Gambar asli",
+    "sourceAsset": "706fde58afc75393b8d4a474.png",
+    "sourceHash": "706fde58afc75393b8d4a474794b0cbaee353e748b785c848310772bfc0a36ce"
+  },
+  "8a4889052fb0": {
+    "asset": "koleksi/8a4889052fb0.jpg",
+    "origin": "Halaman pertama PDF asli",
+    "sourceAsset": "537087f8c81b3a0fd3aaa685.pdf",
+    "sourceHash": "537087f8c81b3a0fd3aaa68523e0084c47be22d2207c9cea9c42f2917a2d01bd"
+  },
+  "0df68e4ffdc7": {
+    "asset": "koleksi/0df68e4ffdc7.jpg",
+    "origin": "Gambar asli",
+    "sourceAsset": "301959acc6d3e81ea7904d9c.png",
+    "sourceHash": "301959acc6d3e81ea7904d9ca3a09d05909bfcfa31782382c0d4965cdaa93e4f"
+  },
+  "8897b33dc5ee": {
+    "asset": "koleksi/8897b33dc5ee.jpg",
+    "origin": "Gambar asli",
+    "sourceAsset": "60c3963a544ce58cfc085b3f.png",
+    "sourceHash": "60c3963a544ce58cfc085b3f5b97309a7a68d09ea0058216ec5821d14480b0d5"
+  },
+  "e0322c6f25e7": {
+    "asset": "koleksi/e0322c6f25e7.jpg",
+    "origin": "Halaman pertama PDF asli",
+    "sourceAsset": "017a0a2db79b2604bf146b51.pdf",
+    "sourceHash": "017a0a2db79b2604bf146b51b3dceccce6b385bff71adf08d23e2117f4f08a41"
+  },
+  "ee755f94d4b2": {
+    "asset": "koleksi/ee755f94d4b2.jpg",
+    "origin": "Halaman pertama PDF asli",
+    "sourceAsset": "e6cedd1439c55c6feab73a55.pdf",
+    "sourceHash": "e6cedd1439c55c6feab73a5597d98378cfe6267bdcd44e81e73c53f7ce2a9f05"
+  },
+  "50f550ebb8fa": {
+    "asset": "koleksi/50f550ebb8fa.jpg",
+    "origin": "Halaman pertama PDF asli",
+    "sourceAsset": "fa8a7b8736f24c4bce44e18c.pdf",
+    "sourceHash": "fa8a7b8736f24c4bce44e18cdac75ad18050bfe2ff11feb57dda2e442e2e02ce"
+  },
+  "def91cf0a16d": {
+    "asset": "koleksi/def91cf0a16d.jpg",
+    "origin": "Halaman pertama PDF asli",
+    "sourceAsset": "f1eab0c6b0a46e54aa6bc255.pdf",
+    "sourceHash": "f1eab0c6b0a46e54aa6bc255f3f4e5757d1f2c7cbdd7d64609723163f3f11002"
+  },
+  "f870ecb74e5d": {
+    "asset": "koleksi/f870ecb74e5d.jpg",
+    "origin": "Halaman pertama PDF asli",
+    "sourceAsset": "7a58cd9cb14dd69cae9bb85c.pdf",
+    "sourceHash": "7a58cd9cb14dd69cae9bb85c2d549c56b8dcc0fbeb26e6b1c1f3319875315b67"
+  },
+  "316bd33a6adc": {
+    "asset": "koleksi/316bd33a6adc.jpg",
+    "origin": "Halaman pertama PDF asli",
+    "sourceAsset": "ae1f0fb8b0fbc414f3e90cc1.pdf",
+    "sourceHash": "ae1f0fb8b0fbc414f3e90cc15e399c64ca1aea5e97ca18bc9b6ef3805e48f93a"
+  },
+  "ffa6fe59a4c3": {
+    "asset": "koleksi/ffa6fe59a4c3.jpg",
+    "origin": "Halaman pertama PDF asli",
+    "sourceAsset": "46b44b5bd6b65d9baa578675.pdf",
+    "sourceHash": "46b44b5bd6b65d9baa578675edfa5fc9d0efc93b2e8bd439798c77f320484164"
+  },
+  "34c13adb4262": {
+    "asset": "koleksi/34c13adb4262.jpg",
+    "origin": "Halaman pertama PDF asli",
+    "sourceAsset": "f476893f91742abef499b2b0.pdf",
+    "sourceHash": "f476893f91742abef499b2b0b7921fe8ba350631fb212e441f3b593e90017952"
+  },
+  "68af1d7562aa": {
+    "asset": "koleksi/68af1d7562aa.jpg",
+    "origin": "Halaman pertama PDF asli",
+    "sourceAsset": "d43f955da28837d9953c49b5.pdf",
+    "sourceHash": "d43f955da28837d9953c49b5458fd34b7584056dbefb4fddef967e84f0a0a000"
+  },
+  "a9e660ce824c": {
+    "asset": "koleksi/a9e660ce824c.jpg",
+    "origin": "Halaman pertama PDF asli",
+    "sourceAsset": "06d87aaca9936505fcdaeb5c.pdf",
+    "sourceHash": "06d87aaca9936505fcdaeb5cd41fe41db4a2ee9fd7d05e2210fb0de3f37271a5"
+  },
+  "a20eb234adb8": {
+    "asset": "koleksi/a20eb234adb8.jpg",
+    "origin": "Halaman pertama PDF asli",
+    "sourceAsset": "6dd25b7b1f8bca4a986dccc4.pdf",
+    "sourceHash": "6dd25b7b1f8bca4a986dccc459bcc12ed44dd6ee0dd837fefba343f6ed0575e5"
+  },
+  "60b05352e97a": {
+    "asset": "koleksi/60b05352e97a.jpg",
+    "origin": "Halaman pertama PDF asli",
+    "sourceAsset": "fed5b7e2099ebc8066080b98.pdf",
+    "sourceHash": "fed5b7e2099ebc8066080b983a4be8aed007cb180b64dbfbbf002944f4b5d460"
+  },
+  "42af0b51de05": {
+    "asset": "koleksi/42af0b51de05.jpg",
+    "origin": "Halaman pertama PDF asli",
+    "sourceAsset": "615dfc79d5d5e8105615dbd2.pdf",
+    "sourceHash": "615dfc79d5d5e8105615dbd2464a27ab9df2636b21d1ba93b600c25a0772ada2"
+  },
+  "78ed7db6e592": {
+    "asset": "koleksi/78ed7db6e592.jpg",
+    "origin": "Halaman pertama PDF asli",
+    "sourceAsset": "11b0bb0aeb942a9243d14658.pdf",
+    "sourceHash": "11b0bb0aeb942a9243d1465855c980e66299f1aa2eecd747540dd0c9eb02ebec"
+  },
+  "4033bd4a84c3": {
+    "asset": "koleksi/4033bd4a84c3.jpg",
+    "origin": "Halaman pertama PDF asli",
+    "sourceAsset": "c5c51f906efa80b34b7316d1.pdf",
+    "sourceHash": "c5c51f906efa80b34b7316d18e8f88ecc850ab97d82e9c7091e4ad381f4e3af7"
+  },
+  "5b89a03dc5db": {
+    "asset": "koleksi/5b89a03dc5db.jpg",
+    "origin": "Halaman pertama PDF asli",
+    "sourceAsset": "3a913e1fba933aa0c85de034.pdf",
+    "sourceHash": "3a913e1fba933aa0c85de0341278d3e5d8f30291e087a2c70b02772357557a97"
+  },
+  "dec5b3ab8d89": {
+    "asset": "koleksi/dec5b3ab8d89.jpg",
+    "origin": "Halaman pertama PDF asli",
+    "sourceAsset": "eda225393bb2b12943904e93.pdf",
+    "sourceHash": "eda225393bb2b12943904e93970a073dcd4df9b61708386ce594adc0320b2f9b"
+  },
+  "f578293c02b9": {
+    "asset": "koleksi/f578293c02b9.jpg",
+    "origin": "Halaman pertama PDF asli",
+    "sourceAsset": "11c7665ca7856852cbed908d.pdf",
+    "sourceHash": "11c7665ca7856852cbed908d1a80a09bf4beb50b90075d3ea6ff90b4488da386"
+  },
+  "409ffe1d4dc3": {
+    "asset": "koleksi/409ffe1d4dc3.jpg",
+    "origin": "Halaman pertama PDF asli",
+    "sourceAsset": "2db43c5f0120e590e4e7f7a4.pdf",
+    "sourceHash": "2db43c5f0120e590e4e7f7a4e22ad4d841e294d363e4a0bd28f9e447b69642e9"
+  }
+}
