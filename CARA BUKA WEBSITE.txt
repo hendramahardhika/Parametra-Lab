@@ -7,7 +7,9 @@ PARAMETRA LAB — VERSI LOKAL TANPA LOGIN
 Materi, kuis, PDF jobsheet, video piston, dan pembukaan STL/OBJ dapat dipakai tanpa internet.
 Jangan memindahkan index.html sendirian: sertakan folder public/jobsheets/ dan
 video Dokumen/Fusion/Animasi/Animation Piston.mp4 dengan susunan folder yang sama.
-Menu Modul belajar -> pilih modul -> Part 3D / Modul pembelajaran / Jobsheet PDF.
+Menu Modul belajar -> Pengenalan Fusion -> Interface Autodesk Fusion untuk panduan antarmuka 1–9.
+Modul lain tetap menyediakan Preview Sketch 2D / Part 3D, Modul pembelajaran, dan Jobsheet PDF.
+Sertakan juga folder public/learning/ agar gambar antarmuka Fusion tersedia tanpa internet.
 PDF di setiap modul tetap urut nomor. File STL materi belum ditambahkan.
 Jika PDF tidak tampil di dalam halaman, gunakan tombol Buka PDF atau Unduh PDF.
 Google Drive dan viewer Autodesk tetap memerlukan internet.
@@ -22,6 +24,9 @@ Untuk mengedit kode dengan Antigravity, buka folder Parametra Lab ini sebagai pr
 Edit file sumber di app/, components/, lib/, atau local/; jangan mengedit index.html langsung.
 Setelah mengubah kode/materi/PDF, jalankan `npm run build:offline` di terminal folder Parametra Lab
 agar index.html diperbarui. Node.js dan dependensi proyek diperlukan untuk langkah ini.
+Untuk perubahan tampilan saja, jika dokumen sumber lama tidak lengkap tetapi aset di public/
+dan manifest sudah tersedia, gunakan `npm run build:offline -- --use-prepared-assets`.
+Opsi ini memakai aset yang sudah disiapkan, bukan memperbarui isi pustaka dari dokumen sumber.
 
 Untuk pratinjau server dengan pembaruan otomatis, jalankan `npm run dev`.
 
