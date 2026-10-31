@@ -1,0 +1,1 @@
+import{t as e}from"./rsc-WLkCbT4s.js";import{t}from"./framework~index~layout~page~app-page-cache-render~app-page-cache~app-route-handler-dispatch-B7xXFcFm.js";var n=e(()=>{throw Error(`Unexpectedly client reference export 'default' is called on server`)},`647181b3ec30`,`default`),r=t();function i(){return(0,r.jsx)(n,{})}export{i as default};
