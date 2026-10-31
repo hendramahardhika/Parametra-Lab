@@ -1,0 +1,132 @@
+{
+  "hash": "0541ceae",
+  "configHash": "1c72da69",
+  "lockfileHash": "ed8a5444",
+  "browserHash": "52b37d9c",
+  "optimized": {
+    "class-variance-authority": {
+      "src": "../../class-variance-authority/dist/index.mjs",
+      "file": "class-variance-authority.js",
+      "fileHash": "cc3db515",
+      "needsInterop": false
+    },
+    "clsx": {
+      "src": "../../clsx/dist/clsx.mjs",
+      "file": "clsx.js",
+      "fileHash": "5d7df4db",
+      "needsInterop": false
+    },
+    "lucide-react": {
+      "src": "../../lucide-react/dist/esm/lucide-react.mjs",
+      "file": "lucide-react.js",
+      "fileHash": "a5b72c33",
+      "needsInterop": false
+    },
+    "next-themes": {
+      "src": "../../next-themes/dist/index.mjs",
+      "file": "next-themes.js",
+      "fileHash": "4acc5622",
+      "needsInterop": false
+    },
+    "next/dynamic": {
+      "src": "../../vinext/dist/shims/dynamic.js",
+      "file": "next_dynamic.js",
+      "fileHash": "38a366f9",
+      "needsInterop": false
+    },
+    "next/headers": {
+      "src": "../../vinext/dist/shims/headers.js",
+      "file": "next_headers.js",
+      "fileHash": "5f96ee70",
+      "needsInterop": false
+    },
+    "radix-ui": {
+      "src": "../../radix-ui/dist/index.mjs",
+      "file": "radix-ui.js",
+      "fileHash": "ba50f37b",
+      "needsInterop": false
+    },
+    "react-dom": {
+      "src": "../../react-dom/index.js",
+      "file": "react-dom.js",
+      "fileHash": "8a20fa23",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "1af81e98",
+      "needsInterop": true
+    },
+    "react-server-dom-webpack/client.browser": {
+      "src": "../../react-server-dom-webpack/client.browser.js",
+      "file": "react-server-dom-webpack_client__browser.js",
+      "fileHash": "b5e58611",
+      "needsInterop": true
+    },
+    "react": {
+      "src": "../../react/index.js",
+      "file": "react.js",
+      "fileHash": "4483c535",
+      "needsInterop": true
+    },
+    "react/jsx-dev-runtime": {
+      "src": "../../react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "28a9c491",
+      "needsInterop": true
+    },
+    "react/jsx-runtime": {
+      "src": "../../react/jsx-runtime.js",
+      "file": "react_jsx-runtime.js",
+      "fileHash": "4e9eb9ce",
+      "needsInterop": true
+    },
+    "sonner": {
+      "src": "../../sonner/dist/index.mjs",
+      "file": "sonner.js",
+      "fileHash": "3f950bf6",
+      "needsInterop": false
+    },
+    "tailwind-merge": {
+      "src": "../../tailwind-merge/dist/bundle-mjs.mjs",
+      "file": "tailwind-merge.js",
+      "fileHash": "f10b7475",
+      "needsInterop": false
+    },
+    "three": {
+      "src": "../../three/build/three.module.js",
+      "file": "three.js",
+      "fileHash": "23f92e47",
+      "needsInterop": false
+    },
+    "three/examples/jsm/controls/OrbitControls.js": {
+      "src": "../../three/examples/jsm/controls/OrbitControls.js",
+      "file": "three_examples_jsm_controls_OrbitControls__js.js",
+      "fileHash": "4c4d8157",
+      "needsInterop": false
+    },
+    "three/examples/jsm/loaders/OBJLoader.js": {
+      "src": "../../three/examples/jsm/loaders/OBJLoader.js",
+      "file": "three_examples_jsm_loaders_OBJLoader__js.js",
+      "fileHash": "d25838fa",
+      "needsInterop": false
+    },
+    "three/examples/jsm/loaders/STLLoader.js": {
+      "src": "../../three/examples/jsm/loaders/STLLoader.js",
+      "file": "three_examples_jsm_loaders_STLLoader__js.js",
+      "fileHash": "832f4ac9",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-CYJPkc-J": {
+      "file": "chunk-CYJPkc-J.js",
+      "isDynamicEntry": false
+    },
+    "three.module-WuA7t4wx": {
+      "file": "three.module-WuA7t4wx.js",
+      "isDynamicEntry": false
+    }
+  }
+}
