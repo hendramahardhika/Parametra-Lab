@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <base target="_top">
+  <meta charset="utf-8">
+  <style>
+    *{box-sizing:border-box}body{margin:0;background:#f3f6fa;color:#152b40;font:16px/1.6 system-ui,sans-serif}main{max-width:680px;margin:24px auto;padding:28px;background:white;border-radius:18px}h1{line-height:1.2}label{display:block;font-weight:600;margin-top:18px}input,select,textarea,button{width:100%;font:inherit;padding:12px;border:1px solid #bcc8d3;border-radius:8px}button{margin-top:24px;background:#152b40;color:white;cursor:pointer}button:disabled{opacity:.6;cursor:wait}.note{font-size:14px;color:#475d70}#status{white-space:pre-wrap;overflow-wrap:anywhere;padding:16px;background:#edf4df;border-radius:10px}#status:empty{display:none}fieldset{border:0;margin:0;padding:0}@media(max-width:600px){main{margin:0;padding:20px;border-radius:0}}
+  </style>
+</head>
+<body><main>
+  <p class="note">PARAMETRA LAB · PENGUMPULAN TUGAS</p>
+  <h1>Kirim karya ke guru.</h1>
+  <p>Berkas dan catatan akan dikirim ke Google Drive guru. Jangan menutup halaman sebelum nomor bukti penerimaan muncul.</p>
+  <form id="uploadForm">
+    <input type="hidden" name="receipt" id="receipt">
+    <fieldset id="fields">
+      <label for="studentName">Nama siswa</label><input id="studentName" name="studentName" required minlength="2" maxlength="80" autocomplete="name">
+      <label for="className">Kelas</label><input id="className" name="className" required minlength="2" maxlength="80" placeholder="XI Teknik Pemesinan">
+      <label for="module">Modul</label><select id="module" name="module" required><option value="8">01 · Pengenalan Fusion</option><option value="9">02 · Sketch 2D</option><option value="10">03 · Membuat Part 3D</option><option value="11">04 · Assembly</option></select>
+      <label for="assignment">Nama / nomor tugas atau jobsheet</label><input id="assignment" name="assignment" required minlength="2" maxlength="100" placeholder="Contoh: Jobsheet 1 — Plat Sambungan">
+      <label for="file">Berkas tugas (maksimal 20 MB)</label><input id="file" name="file" type="file" required accept=".f3d,.f3z,.stl,.obj,.step,.stp,.ipt,.iam,.idw,.sldprt,.sldasm,.slddrw,.dwg,.dxf,.pdf,.png,.jpg,.jpeg">
+      <p class="note">Satu berkas per pengiriman. Untuk assembly Fusion gunakan F3Z jika perlu menyertakan komponen. Format yang diterima untuk pengumpulan belum tentu dapat dipratinjau di website.</p>
+      <label for="reflection">Refleksi singkat</label><textarea id="reflection" name="reflection" required minlength="10" maxlength="2000" rows="4" placeholder="Apa yang berhasil dan apa yang masih perlu diperbaiki?"></textarea>
+      <label for="classCode">Kode pengumpulan dari guru</label><input id="classCode" name="classCode" type="password" required autocomplete="off">
+      <p class="note">Nama, kelas, refleksi, dan berkas digunakan untuk penilaian oleh guru. Jangan mengunggah data sensitif. Identitas diisi sendiri, bukan identitas siswa yang diverifikasi otomatis.</p>
+      <button id="submitButton" type="submit">Kirim ke Google Drive guru</button>
+    </fieldset>
+  </form>
+  <p id="status" role="status" aria-live="polite"></p>
+  <button id="again" type="button" hidden>Kumpulkan tugas lain</button>
+  <script>
+    const form = document.getElementById('uploadForm');
+    const status = document.getElementById('status');
+    const button = document.getElementById('submitButton');
+    let busy = false;
+    function newReceipt() {
+      const bytes = crypto.getRandomValues(new Uint8Array(16));
+      document.getElementById('receipt').value = Array.from(bytes, b => b.toString(16).padStart(2, '0')).join('');
+    }
+    newReceipt();
+    window.addEventListener('beforeunload', e => { if (busy) { e.preventDefault(); e.returnValue = ''; } });
+    form.addEventListener('submit', e => {
+      e.preventDefault();
+      if (busy || !form.reportValidity()) return;
+      const file = document.getElementById('file').files[0];
+      if (!file || !file.size || file.size > 20 * 1024 * 1024) { status.textContent = 'Pilih berkas berisi data, maksimal 20 MB.'; return; }
+      if (!window.google || !google.script) { status.textContent = 'Buka formulir melalui alamat deployment Google Apps Script, bukan file HTML lokal.'; return; }
+      busy = true; button.disabled = true; status.textContent = 'Mengunggah… Tunggu bukti penerimaan. Jangan menutup halaman.';
+      google.script.run.withSuccessHandler(result => {
+        busy = false; button.disabled = false;
+        if (!result || result.ok !== true || !result.receipt) { status.textContent = 'Penerimaan belum dapat dikonfirmasi. Hubungi guru sebelum mencoba kembali.'; return; }
+        form.hidden = true;
+        status.textContent = 'Berhasil diterima di Google Drive guru.\nBerkas: ' + result.filename + '\nBukti penerimaan: ' + result.receipt + '\nSimpan tangkapan layar bukti ini.';
+        document.getElementById('again').hidden = false;
+      }).withFailureHandler(error => {
+        busy = false; button.disabled = false;
+        status.textContent = 'Pengiriman belum dikonfirmasi. ' + (error && error.message ? error.message : 'Periksa internet atau hubungi guru.') + '\nIsian dipertahankan. Jika mencoba lagi, gunakan formulir ini agar nomor pengiriman tetap sama.';
+      }).submitWork(form);
+    });
+    document.getElementById('again').addEventListener('click', () => { form.reset(); newReceipt(); form.hidden = false; status.textContent = ''; document.getElementById('again').hidden = true; });
+  </script>
+</main></body>
+</html>
