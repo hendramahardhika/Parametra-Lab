@@ -1,0 +1,30 @@
+import assert from 'node:assert/strict';
+import { readFile } from 'node:fs/promises';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { STLLoader } from 'three/examples/jsm/loaders/STLLoader.js';
+const root = fileURLToPath(new URL('../', import.meta.url));
+const models = JSON.parse(await readFile(path.join(root, 'lib/part-model-data.generated.json'), 'utf8'));
+const sheets = JSON.parse(await readFile(path.join(root, 'lib/jobsheets.json'), 'utf8'));
+assert.deepEqual(sheets.filter(s => s.stage === 'part').map(s => s.id), ['part-3', 'part-4', 'part-5', 'part-6']);
+assert.deepEqual(models.map(m => m.jobsheetId), ['part-3', 'part-4', 'part-5', 'part-6']);
+for (const model of models) {
+  const original = await readFile(path.join(root, 'Dokumen/Fusion/Part 3D', model.source));
+  const bytes = Buffer.from(model.base64, 'base64');
+  assert.ok(bytes.equals(original), model.source + ': data asli harus utuh');
+  const geometry = new STLLoader().parse(bytes.buffer.slice(bytes.byteOffset, bytes.byteOffset + bytes.byteLength));
+  geometry.computeBoundingBox();
+  const position = geometry.getAttribute('position');
+  assert.ok(position.count > 0 && position.array.every(Number.isFinite));
+  assert.ok(!geometry.boundingBox.isEmpty());
+  const sheet = sheets.find(s => s.id === model.jobsheetId);
+  assert.equal(model.source, sheet.title + '.stl');
+  const pdf = await readFile(path.join(root, 'public/jobsheets', sheet.asset));
+  assert.equal(pdf.subarray(0, 5).toString(), '%PDF-');
+  console.log(`${sheet.title}: ${position.count / 3} segitiga, STL dan PDF valid.`);
+  geometry.dispose();
+}
+const html = await readFile(path.join(root, 'index.html'), 'utf8');
+assert.ok(html.includes('Jelajahi part 3D') && html.includes('STL belum tersedia'));
+for (const model of models) assert.ok(html.includes(model.base64), 'Model harus tertanam agar file:// tidak memerlukan fetch');
+console.log('Lulus: 4 model sesuai jobsheet, data asli utuh, geometri valid, tertanam pada index.html.');
