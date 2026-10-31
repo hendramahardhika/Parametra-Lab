@@ -1,0 +1,139 @@
+[
+  {
+    "id": "sketch-1",
+    "sourceRoot": "Fusion",
+    "previewSource": "Sketch 2D/Plat Sambung.png",
+    "previewAsset": "sketch-1.png",
+    "stage": "sketch",
+    "number": 1,
+    "title": "Plat Sambungan",
+    "source": "Sketch 2D/Jobsheet 1 Siklus 2_Plat Sambungan.pdf",
+    "asset": "sketch-1.pdf",
+    "pages": 1,
+    "role": "practice"
+  },
+  {
+    "id": "sketch-2",
+    "sourceRoot": "Fusion",
+    "previewSource": "Sketch 2D/V Block.png",
+    "previewAsset": "sketch-2.png",
+    "stage": "sketch",
+    "number": 2,
+    "title": "V Block",
+    "source": "Sketch 2D/Jobsheet 2 Siklus 2_V Block.pdf",
+    "asset": "sketch-2.pdf",
+    "pages": 1,
+    "role": "practice"
+  },
+  {
+    "id": "part-3",
+    "stage": "part",
+    "number": 3,
+    "title": "Dudukan Poros",
+    "source": "Part 3D/Jobsheet 3 Siklus 2_Dudukan Poros.pdf",
+    "asset": "part-3.pdf",
+    "pages": 1,
+    "role": "practice"
+  },
+  {
+    "id": "part-4",
+    "stage": "part",
+    "number": 4,
+    "title": "Pulley",
+    "source": "Part 3D/Jobsheet 4 Siklus 2_Pulley.pdf",
+    "asset": "part-4.pdf",
+    "pages": 1,
+    "role": "practice"
+  },
+  {
+    "id": "part-5",
+    "stage": "part",
+    "number": 5,
+    "title": "Flange Pipa",
+    "source": "Part 3D/Jobsheet 5 Siklus 2_Flange Pipa.pdf",
+    "asset": "part-5.pdf",
+    "pages": 1,
+    "role": "practice"
+  },
+  {
+    "id": "part-6",
+    "stage": "part",
+    "number": 6,
+    "title": "Bottle",
+    "source": "Part 3D/Jobsheet 6 Siklus 2_Bottle.pdf",
+    "asset": "part-6.pdf",
+    "pages": 1,
+    "role": "practice"
+  },
+  {
+    "id": "assembly-1",
+    "stage": "assembly",
+    "number": 1,
+    "title": "Cylinder Block",
+    "source": "Assembly/Jobsheet 1 Siklus 4_Assembly Piston_Cylinder Block.pdf",
+    "asset": "assembly-1.pdf",
+    "pages": 1,
+    "role": "practice"
+  },
+  {
+    "id": "assembly-2",
+    "stage": "assembly",
+    "number": 2,
+    "title": "Piston Head",
+    "source": "Assembly/Jobsheet 2 Siklus 4__Assembly Piston_Piston Head.pdf",
+    "asset": "assembly-2.pdf",
+    "pages": 1,
+    "role": "practice"
+  },
+  {
+    "id": "assembly-3",
+    "stage": "assembly",
+    "number": 3,
+    "title": "Pin Piston",
+    "source": "Assembly/Jobsheet 3 Siklus 4__Assembly Piston_Pin Piston.pdf",
+    "asset": "assembly-3.pdf",
+    "pages": 1,
+    "role": "practice"
+  },
+  {
+    "id": "assembly-4",
+    "stage": "assembly",
+    "number": 4,
+    "title": "Connecting Rod",
+    "source": "Assembly/Jobsheet 4 Siklus 4__Assembly Piston_Connecting Road.pdf",
+    "asset": "assembly-4.pdf",
+    "pages": 1,
+    "role": "practice"
+  },
+  {
+    "id": "assembly-5",
+    "stage": "assembly",
+    "number": 5,
+    "title": "Crankshaft",
+    "source": "Assembly/Jobsheet 5 Siklus 4_Assembly Piston_Crankshaft.pdf",
+    "asset": "assembly-5.pdf",
+    "pages": 1,
+    "role": "practice"
+  },
+  {
+    "id": "assembly-full",
+    "stage": "assembly",
+    "number": null,
+    "title": "Rakitan lengkap · seluruh gambar",
+    "source": "Assembly/Jobsheet Siklus 4_Assembly Piston_Full.pdf",
+    "asset": "assembly-full.pdf",
+    "pages": 6,
+    "role": "reference"
+  },
+  {
+    "id": "assembly-isometris",
+    "stage": "assembly",
+    "number": null,
+    "title": "Tampak isometris & daftar komponen",
+    "source": "Assembly/Jobsheet Siklus 4_Assembly Piston_Isometris.pdf",
+    "asset": "assembly-isometris.pdf",
+    "pages": 1,
+    "role": "reference"
+  }
+]
+

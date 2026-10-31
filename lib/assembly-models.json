@@ -1,0 +1,8 @@
+[
+  { "jobsheetId": "assembly-full", "source": "Assembly Piston.stl" },
+  { "jobsheetId": "assembly-1", "source": "Cylinder Block.stl" },
+  { "jobsheetId": "assembly-2", "source": "Piston Head.stl" },
+  { "jobsheetId": "assembly-3", "source": "Pin Piston.stl" },
+  { "jobsheetId": "assembly-4", "source": "Connecting Rod.stl" },
+  { "jobsheetId": "assembly-5", "source": "Crankshaft.stl" }
+]

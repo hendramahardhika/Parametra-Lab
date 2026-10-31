@@ -1,0 +1,1504 @@
+[
+  {
+    "id": "6d349d20cd79",
+    "cycle": "Umum",
+    "stages": [
+      "intro",
+      "sketch",
+      "part",
+      "assembly"
+    ],
+    "category": "ATP",
+    "title": "ATP · TFLM Perancangan kelas XI",
+    "description": "Alur tujuan pembelajaran untuk enam pertemuan pada dua siklus.",
+    "audience": "teacher",
+    "cover": "previews/koleksi/6d349d20cd79.jpg",
+    "moduleTitle": "Lintas modul",
+    "formats": [
+      {
+        "extension": "docx",
+        "name": "ATP_TFLM_Perancangan_Kelas_XI_6_Pertemuan_2_Siklus.docx",
+        "asset": "118e3124fc3c14d2c733b183.docx",
+        "bytes": 30661
+      }
+    ]
+  },
+  {
+    "id": "60c73dc74b77",
+    "cycle": "Umum",
+    "stages": [
+      "intro",
+      "sketch",
+      "part",
+      "assembly"
+    ],
+    "category": "Aset desain",
+    "title": "Banner teknik TFLM ultra-lebar",
+    "description": "Aset visual pembelajaran untuk penyusunan materi guru.",
+    "audience": "teacher",
+    "cover": "previews/koleksi/60c73dc74b77.jpg",
+    "moduleTitle": "Lintas modul",
+    "formats": [
+      {
+        "extension": "png",
+        "name": "Banner teknik TFLM ultra-lebar.png",
+        "asset": "f6b9ef8b8dce43ef7ca16561.png",
+        "bytes": 1214800
+      }
+    ]
+  },
+  {
+    "id": "c43b6fc81879",
+    "cycle": "Umum",
+    "stages": [
+      "intro",
+      "sketch",
+      "part",
+      "assembly"
+    ],
+    "category": "Aset desain",
+    "title": "Footer TFLM-Perancangan",
+    "description": "Aset visual pembelajaran untuk penyusunan materi guru.",
+    "audience": "teacher",
+    "cover": "previews/koleksi/c43b6fc81879.jpg",
+    "moduleTitle": "Lintas modul",
+    "formats": [
+      {
+        "extension": "png",
+        "name": "Footer TFLM-Perancangan.png",
+        "asset": "fe59c6d58ec9bcc0021011b2.png",
+        "bytes": 459107
+      }
+    ]
+  },
+  {
+    "id": "aa5d3dd14a78",
+    "cycle": "Siklus 4",
+    "stages": [
+      "assembly"
+    ],
+    "category": "Animasi",
+    "title": "Animasi piston · referensi gerak",
+    "description": "Amati hubungan dan gerak komponen rakitan piston.",
+    "audience": "student",
+    "cover": "previews/koleksi/aa5d3dd14a78.jpg",
+    "moduleTitle": "Assembly",
+    "formats": [
+      {
+        "extension": "mp4",
+        "name": "1026.mp4",
+        "asset": "0d864e2a847bfa7ba53b3c5a.mp4",
+        "bytes": 7272733
+      }
+    ]
+  },
+  {
+    "id": "7f349944ab46",
+    "cycle": "Siklus 4",
+    "stages": [
+      "assembly"
+    ],
+    "category": "Animasi",
+    "title": "Piston · explode view",
+    "description": "Video AVI untuk diputar melalui aplikasi video di komputer.",
+    "audience": "student",
+    "cover": "previews/koleksi/7f349944ab46.jpg",
+    "moduleTitle": "Assembly",
+    "formats": [
+      {
+        "extension": "avi",
+        "name": "Piston Explode  View.avi",
+        "asset": "12cd329d059e2fdf84c362ba.avi",
+        "bytes": 2825016
+      }
+    ]
+  },
+  {
+    "id": "60ef05c3f508",
+    "cycle": "Siklus 4",
+    "stages": [
+      "assembly"
+    ],
+    "category": "Model 3D",
+    "title": "Assembly Piston",
+    "description": "Model STL asli. Buka penampil 3D pada modul atau unduh untuk praktik.",
+    "audience": "student",
+    "cover": "previews/koleksi/60ef05c3f508.jpg",
+    "moduleTitle": "Assembly",
+    "formats": [
+      {
+        "extension": "stl",
+        "name": "Assembly Piston.stl",
+        "asset": "d4ca8c1c575fc00081b0262e.stl",
+        "bytes": 710584
+      }
+    ]
+  },
+  {
+    "id": "b5101dcba962",
+    "cycle": "Siklus 4",
+    "stages": [
+      "assembly"
+    ],
+    "category": "Model 3D",
+    "title": "Connecting Rod",
+    "description": "Model STL asli. Buka penampil 3D pada modul atau unduh untuk praktik.",
+    "audience": "student",
+    "cover": "previews/koleksi/b5101dcba962.jpg",
+    "moduleTitle": "Assembly",
+    "formats": [
+      {
+        "extension": "stl",
+        "name": "Connecting Rod.stl",
+        "asset": "786e061f45a58f7ff57a2e20.stl",
+        "bytes": 293984
+      }
+    ]
+  },
+  {
+    "id": "7ba91efc3934",
+    "cycle": "Siklus 4",
+    "stages": [
+      "assembly"
+    ],
+    "category": "Model 3D",
+    "title": "Crankshaft",
+    "description": "Model STL asli. Buka penampil 3D pada modul atau unduh untuk praktik.",
+    "audience": "student",
+    "cover": "previews/koleksi/7ba91efc3934.jpg",
+    "moduleTitle": "Assembly",
+    "formats": [
+      {
+        "extension": "stl",
+        "name": "Crankshaft.stl",
+        "asset": "fc38e9d6b15e3fc8b78f78e5.stl",
+        "bytes": 52484
+      }
+    ]
+  },
+  {
+    "id": "d922d101519c",
+    "cycle": "Siklus 4",
+    "stages": [
+      "assembly"
+    ],
+    "category": "Model 3D",
+    "title": "Cylinder Block",
+    "description": "Model STL asli. Buka penampil 3D pada modul atau unduh untuk praktik.",
+    "audience": "student",
+    "cover": "previews/koleksi/d922d101519c.jpg",
+    "moduleTitle": "Assembly",
+    "formats": [
+      {
+        "extension": "stl",
+        "name": "Cylinder Block.stl",
+        "asset": "92e706b95181673349e09c11.stl",
+        "bytes": 17384
+      }
+    ]
+  },
+  {
+    "id": "389b94a9727d",
+    "cycle": "Siklus 4",
+    "stages": [
+      "assembly"
+    ],
+    "category": "Model 3D",
+    "title": "Pin Piston",
+    "description": "Model STL asli. Buka penampil 3D pada modul atau unduh untuk praktik.",
+    "audience": "student",
+    "cover": "previews/koleksi/389b94a9727d.jpg",
+    "moduleTitle": "Assembly",
+    "formats": [
+      {
+        "extension": "stl",
+        "name": "Pin Piston.stl",
+        "asset": "da749cb8812459f2917cbf1a.stl",
+        "bytes": 68184
+      }
+    ]
+  },
+  {
+    "id": "abfb5b13e6cf",
+    "cycle": "Siklus 4",
+    "stages": [
+      "assembly"
+    ],
+    "category": "Model 3D",
+    "title": "Piston Head",
+    "description": "Model STL asli. Buka penampil 3D pada modul atau unduh untuk praktik.",
+    "audience": "student",
+    "cover": "previews/koleksi/abfb5b13e6cf.jpg",
+    "moduleTitle": "Assembly",
+    "formats": [
+      {
+        "extension": "stl",
+        "name": "Piston Head.stl",
+        "asset": "2dd451013628216cc53f7f73.stl",
+        "bytes": 388484
+      }
+    ]
+  },
+  {
+    "id": "8f396928241f",
+    "cycle": "Siklus 2",
+    "stages": [
+      "part"
+    ],
+    "category": "Model 3D",
+    "title": "Bottle",
+    "description": "Model STL asli. Buka penampil 3D pada modul atau unduh untuk praktik.",
+    "audience": "student",
+    "cover": "previews/koleksi/8f396928241f.jpg",
+    "moduleTitle": "Part 3D",
+    "formats": [
+      {
+        "extension": "stl",
+        "name": "Bottle.stl",
+        "asset": "d506d2cbe04998b1f437795a.stl",
+        "bytes": 455484
+      }
+    ]
+  },
+  {
+    "id": "08a9f0ff1701",
+    "cycle": "Siklus 2",
+    "stages": [
+      "part"
+    ],
+    "category": "Model 3D",
+    "title": "Dudukan Poros",
+    "description": "Model STL asli. Buka penampil 3D pada modul atau unduh untuk praktik.",
+    "audience": "student",
+    "cover": "previews/koleksi/08a9f0ff1701.jpg",
+    "moduleTitle": "Part 3D",
+    "formats": [
+      {
+        "extension": "stl",
+        "name": "Dudukan Poros.stl",
+        "asset": "d65816d0ef46ef801acdb440.stl",
+        "bytes": 162484
+      }
+    ]
+  },
+  {
+    "id": "ab828ea54e7d",
+    "cycle": "Siklus 2",
+    "stages": [
+      "part"
+    ],
+    "category": "Model 3D",
+    "title": "Flange Pipa",
+    "description": "Model STL asli. Buka penampil 3D pada modul atau unduh untuk praktik.",
+    "audience": "student",
+    "cover": "previews/koleksi/ab828ea54e7d.jpg",
+    "moduleTitle": "Part 3D",
+    "formats": [
+      {
+        "extension": "stl",
+        "name": "Flange Pipa.stl",
+        "asset": "2b601dd6250e6616b4ae1c8f.stl",
+        "bytes": 628384
+      }
+    ]
+  },
+  {
+    "id": "f2b9905637ba",
+    "cycle": "Siklus 2",
+    "stages": [
+      "part"
+    ],
+    "category": "Model 3D",
+    "title": "Pulley",
+    "description": "Model STL asli. Buka penampil 3D pada modul atau unduh untuk praktik.",
+    "audience": "student",
+    "cover": "previews/koleksi/f2b9905637ba.jpg",
+    "moduleTitle": "Part 3D",
+    "formats": [
+      {
+        "extension": "stl",
+        "name": "Pulley.stl",
+        "asset": "46fc953eb1b53818ea675abb.stl",
+        "bytes": 107184
+      }
+    ]
+  },
+  {
+    "id": "8216da522f7f",
+    "cycle": "Siklus 2",
+    "stages": [
+      "sketch"
+    ],
+    "category": "File CAD",
+    "title": "Sketch 2D · Project 2",
+    "description": "Unduh berkas desain asli untuk dibuka pada aplikasi CAD yang sesuai.",
+    "audience": "student",
+    "cover": "previews/koleksi/8216da522f7f.jpg",
+    "moduleTitle": "Sketch 2D",
+    "formats": [
+      {
+        "extension": "f3d",
+        "name": "Stetch_Bab 1_Project 2_Hendra Mahardhika.f3d",
+        "asset": "d4055a2ba1980d76ad199053.f3d",
+        "bytes": 212338
+      },
+      {
+        "extension": "ipt",
+        "name": "Stetch_Bab 1_Project 2_Hendra Mahardhika.ipt",
+        "asset": "b241e93c144c0ae60f5d0ff3.ipt",
+        "bytes": 67072
+      }
+    ]
+  },
+  {
+    "id": "8dc2db2c6357",
+    "cycle": "Siklus 2",
+    "stages": [
+      "sketch"
+    ],
+    "category": "File CAD",
+    "title": "Sketch 2D · Project 4",
+    "description": "Unduh berkas desain asli untuk dibuka pada aplikasi CAD yang sesuai.",
+    "audience": "student",
+    "cover": "previews/koleksi/8dc2db2c6357.jpg",
+    "moduleTitle": "Sketch 2D",
+    "formats": [
+      {
+        "extension": "f3d",
+        "name": "Stetch_Bab 1_Project 4_Hendra Mahardhika.f3d",
+        "asset": "4a01e750d667347ca33709c4.f3d",
+        "bytes": 132040
+      }
+    ]
+  },
+  {
+    "id": "3ef6d04f2653",
+    "cycle": "Umum",
+    "stages": [
+      "intro",
+      "sketch",
+      "part",
+      "assembly"
+    ],
+    "category": "Aset desain",
+    "title": "Header Teknik TFLM-Perancangan",
+    "description": "Aset visual pembelajaran untuk penyusunan materi guru.",
+    "audience": "teacher",
+    "cover": "previews/koleksi/3ef6d04f2653.jpg",
+    "moduleTitle": "Lintas modul",
+    "formats": [
+      {
+        "extension": "png",
+        "name": "Header Teknik TFLM-Perancangan.png",
+        "asset": "2f2474b421e33af739362f6f.png",
+        "bytes": 1589338
+      }
+    ]
+  },
+  {
+    "id": "d00e9d4a25fb",
+    "cycle": "Umum",
+    "stages": [
+      "intro",
+      "sketch",
+      "part",
+      "assembly"
+    ],
+    "category": "Aset desain",
+    "title": "Header TFLM-Perancangan",
+    "description": "Aset visual pembelajaran untuk penyusunan materi guru.",
+    "audience": "teacher",
+    "cover": "previews/koleksi/d00e9d4a25fb.jpg",
+    "moduleTitle": "Lintas modul",
+    "formats": [
+      {
+        "extension": "png",
+        "name": "Header TFLM-Perancangan.png",
+        "asset": "523ed9392c1a34ecc1d594fc.png",
+        "bytes": 1293559
+      }
+    ]
+  },
+  {
+    "id": "488cd842dfef",
+    "cycle": "Umum",
+    "stages": [
+      "intro",
+      "sketch",
+      "part",
+      "assembly"
+    ],
+    "category": "Referensi CAD",
+    "title": "Teknik menggambar mesin dengan CAD",
+    "description": "Modul referensi untuk memperluas pemahaman gambar teknik dan CAD.",
+    "audience": "student",
+    "cover": "previews/koleksi/488cd842dfef.jpg",
+    "moduleTitle": "Lintas modul",
+    "formats": [
+      {
+        "extension": "pdf",
+        "name": "MODUL AJAR_TEKNIK MENGGAMBAR MESIN DENGAN CAD.pdf",
+        "asset": "486ff2f50cb8a9fa00904132.pdf",
+        "bytes": 7532407
+      }
+    ]
+  },
+  {
+    "id": "d14d2fc49ef8",
+    "cycle": "Siklus 2",
+    "stages": [
+      "intro",
+      "sketch",
+      "part"
+    ],
+    "category": "Bahan ajar",
+    "title": "Pengenalan Fusion & pemodelan part 3D",
+    "description": "Bahan ajar lengkap untuk memahami konsep, fitur, dan alur praktik.",
+    "audience": "student",
+    "cover": "previews/koleksi/d14d2fc49ef8.jpg",
+    "moduleTitle": "Lintas modul",
+    "formats": [
+      {
+        "extension": "pdf",
+        "name": "Bahan Ajar Siklus 2_Pengenalan Autodesk Fusion.pdf",
+        "asset": "95d079f947df6e88a63a71cd.pdf",
+        "bytes": 1213912
+      },
+      {
+        "extension": "docx",
+        "name": "Bahan Ajar Siklus 2_Pengenalan Autodesk Fusion.docx",
+        "asset": "a7db00befced3edafc2ecfa7.docx",
+        "bytes": 6655433
+      }
+    ]
+  },
+  {
+    "id": "6e31fae07cb4",
+    "cycle": "Siklus 2",
+    "stages": [
+      "intro",
+      "sketch",
+      "part"
+    ],
+    "category": "Aset desain",
+    "title": "Cover RPP TFLM Siklus 2",
+    "description": "Aset visual pembelajaran untuk penyusunan materi guru.",
+    "audience": "teacher",
+    "cover": "previews/koleksi/6e31fae07cb4.jpg",
+    "moduleTitle": "Lintas modul",
+    "formats": [
+      {
+        "extension": "png",
+        "name": "Cover_RPP_TFLM_Siklus_2.png",
+        "asset": "a72738539109cd39c20ce90c.png",
+        "bytes": 1853470
+      }
+    ]
+  },
+  {
+    "id": "ee5ce8686e87",
+    "cycle": "Siklus 2",
+    "stages": [
+      "intro",
+      "sketch",
+      "part"
+    ],
+    "category": "Asesmen",
+    "title": "Asesmen pertemuan 1 · Pengenalan Fusion & dasar sketch",
+    "description": "Instrumen asesmen, kisi-kisi, dan pedoman pemeriksaan pembelajaran.",
+    "audience": "teacher",
+    "meeting": 1,
+    "cover": "previews/koleksi/ee5ce8686e87.jpg",
+    "moduleTitle": "Lintas modul",
+    "formats": [
+      {
+        "extension": "pdf",
+        "name": "Instrumen Asesmen Siklus 2_Pertemuan 1_TFLM-Perancangan.pdf",
+        "asset": "711205a4fa8ef4ee4789e56b.pdf",
+        "bytes": 276160
+      },
+      {
+        "extension": "docx",
+        "name": "Instrumen Asesmen Siklus 2_Pertemuan 1_TFLM-Perancangan.docx",
+        "asset": "d991e2af3da3b765687e6e45.docx",
+        "bytes": 1622490
+      }
+    ]
+  },
+  {
+    "id": "94491cb488bc",
+    "cycle": "Siklus 2",
+    "stages": [
+      "intro",
+      "sketch",
+      "part"
+    ],
+    "category": "Asesmen",
+    "title": "Asesmen pertemuan 2 · Dudukan Poros & Pulley",
+    "description": "Instrumen asesmen, kisi-kisi, dan pedoman pemeriksaan pembelajaran.",
+    "audience": "teacher",
+    "meeting": 2,
+    "cover": "previews/koleksi/94491cb488bc.jpg",
+    "moduleTitle": "Lintas modul",
+    "formats": [
+      {
+        "extension": "pdf",
+        "name": "Instrumen Asesmen Siklus 2_Pertemuan 2_TFLM-Perancangan.pdf",
+        "asset": "28d5c6821d4572c5f8b4e56a.pdf",
+        "bytes": 275686
+      },
+      {
+        "extension": "docx",
+        "name": "Instrumen Asesmen Siklus 2_Pertemuan 2_TFLM-Perancangan.docx",
+        "asset": "13c35789166472eb7c101d83.docx",
+        "bytes": 1622191
+      }
+    ]
+  },
+  {
+    "id": "9187ecde214e",
+    "cycle": "Siklus 2",
+    "stages": [
+      "intro",
+      "sketch",
+      "part"
+    ],
+    "category": "Asesmen",
+    "title": "Asesmen pertemuan 3 · Flange Pipa & Bottle",
+    "description": "Instrumen asesmen, kisi-kisi, dan pedoman pemeriksaan pembelajaran.",
+    "audience": "teacher",
+    "meeting": 3,
+    "cover": "previews/koleksi/9187ecde214e.jpg",
+    "moduleTitle": "Lintas modul",
+    "formats": [
+      {
+        "extension": "pdf",
+        "name": "Instrumen Asesmen Siklus 2_Pertemuan 3_TFLM-Perancangan.pdf",
+        "asset": "8a01e145f735aa899846f8b8.pdf",
+        "bytes": 274080
+      },
+      {
+        "extension": "docx",
+        "name": "Instrumen Asesmen Siklus 2_Pertemuan 3_TFLM-Perancangan.docx",
+        "asset": "c4aefeb0216dfb37fe65192b.docx",
+        "bytes": 1622153
+      }
+    ]
+  },
+  {
+    "id": "b82b12d29b21",
+    "cycle": "Siklus 2",
+    "stages": [
+      "sketch"
+    ],
+    "category": "Jobsheet",
+    "title": "Jobsheet 1 dan 2 · Plat Sambungan dan V Block",
+    "description": "Paket gambar kerja gabungan. Gunakan ukuran dan keterangan pada dokumen asli.",
+    "audience": "student",
+    "cover": "previews/koleksi/b82b12d29b21.jpg",
+    "moduleTitle": "Sketch 2D",
+    "formats": [
+      {
+        "extension": "pdf",
+        "name": "Jobsheet 1 dan 2 Siklus 2_Plat Sambungan dan V Block.pdf",
+        "asset": "6854469f2c5b79f40628fa9b.pdf",
+        "bytes": 458146
+      }
+    ]
+  },
+  {
+    "id": "e9db986e4617",
+    "cycle": "Siklus 2",
+    "stages": [
+      "sketch"
+    ],
+    "category": "Jobsheet",
+    "title": "Jobsheet 1 · Plat Sambungan",
+    "description": "Gambar kerja dan ukuran asli untuk mendampingi praktik.",
+    "audience": "student",
+    "cover": "previews/koleksi/e9db986e4617.jpg",
+    "moduleTitle": "Sketch 2D",
+    "formats": [
+      {
+        "extension": "pdf",
+        "name": "Jobsheet 1 Siklus 2_Plat Sambungan.pdf",
+        "asset": "29ef60ce085bdde85806bff6.pdf",
+        "bytes": 246827
+      }
+    ]
+  },
+  {
+    "id": "920b4c66acdb",
+    "cycle": "Siklus 2",
+    "stages": [
+      "sketch"
+    ],
+    "category": "Jobsheet",
+    "title": "Jobsheet 1 · Sketch 2D",
+    "description": "Sumber Word jobsheet yang dapat disunting guru.",
+    "audience": "teacher",
+    "cover": "previews/koleksi/920b4c66acdb.jpg",
+    "moduleTitle": "Sketch 2D",
+    "formats": [
+      {
+        "extension": "docx",
+        "name": "Jobsheet 1 Siklus 2_Sketch 2D.docx",
+        "asset": "3b53d892edbbd406a1577546.docx",
+        "bytes": 4672805
+      }
+    ]
+  },
+  {
+    "id": "7f2e9ccd0e28",
+    "cycle": "Siklus 2",
+    "stages": [
+      "sketch"
+    ],
+    "category": "Jobsheet",
+    "title": "Jobsheet 2 · V Block",
+    "description": "Gambar kerja dan ukuran asli untuk mendampingi praktik.",
+    "audience": "student",
+    "cover": "previews/koleksi/7f2e9ccd0e28.jpg",
+    "moduleTitle": "Sketch 2D",
+    "formats": [
+      {
+        "extension": "pdf",
+        "name": "Jobsheet 2 Siklus 2_V Block.pdf",
+        "asset": "e1e7499f35e831e3f8757098.pdf",
+        "bytes": 223314
+      }
+    ]
+  },
+  {
+    "id": "04ce36f8a87d",
+    "cycle": "Siklus 2",
+    "stages": [
+      "part"
+    ],
+    "category": "Jobsheet",
+    "title": "Jobsheet 3 dan 4 · Dudukan Poros dan Pulley",
+    "description": "Paket gambar kerja gabungan. Gunakan ukuran dan keterangan pada dokumen asli.",
+    "audience": "student",
+    "cover": "previews/koleksi/04ce36f8a87d.jpg",
+    "moduleTitle": "Part 3D",
+    "formats": [
+      {
+        "extension": "pdf",
+        "name": "Jobsheet 3 dan 4 Siklus 2_Dudukan Poros dan Pulley.pdf",
+        "asset": "658b297e1ce86ad5e5d79e6d.pdf",
+        "bytes": 198566
+      }
+    ]
+  },
+  {
+    "id": "29e4f3b762a6",
+    "cycle": "Siklus 2",
+    "stages": [
+      "part"
+    ],
+    "category": "Jobsheet",
+    "title": "Jobsheet 3 · Dudukan Poros",
+    "description": "Gambar kerja dan ukuran asli untuk mendampingi praktik.",
+    "audience": "student",
+    "cover": "previews/koleksi/29e4f3b762a6.jpg",
+    "moduleTitle": "Part 3D",
+    "formats": [
+      {
+        "extension": "pdf",
+        "name": "Jobsheet 3 Siklus 2_Dudukan Poros.pdf",
+        "asset": "f486c5ca64a78a74143bad5e.pdf",
+        "bytes": 129051
+      }
+    ]
+  },
+  {
+    "id": "52edf60176f2",
+    "cycle": "Siklus 2",
+    "stages": [
+      "part"
+    ],
+    "category": "Jobsheet",
+    "title": "Jobsheet 4 · Pulley",
+    "description": "Gambar kerja dan ukuran asli untuk mendampingi praktik.",
+    "audience": "student",
+    "cover": "previews/koleksi/52edf60176f2.jpg",
+    "moduleTitle": "Part 3D",
+    "formats": [
+      {
+        "extension": "pdf",
+        "name": "Jobsheet 4 Siklus 2_Pulley.pdf",
+        "asset": "5edf4b9ca9d943c0e1d50640.pdf",
+        "bytes": 71795
+      }
+    ]
+  },
+  {
+    "id": "e14e56dcd3e8",
+    "cycle": "Siklus 2",
+    "stages": [
+      "part"
+    ],
+    "category": "Jobsheet",
+    "title": "Jobsheet 5 dan 6 · Flange Pipa dan Bottle",
+    "description": "Paket gambar kerja gabungan. Gunakan ukuran dan keterangan pada dokumen asli.",
+    "audience": "student",
+    "cover": "previews/koleksi/e14e56dcd3e8.jpg",
+    "moduleTitle": "Part 3D",
+    "formats": [
+      {
+        "extension": "pdf",
+        "name": "Jobsheet 5 dan 6 Siklus 2_Flange Pipa dan Bottle.pdf",
+        "asset": "19ae1f6bd8ab719e27ac52e4.pdf",
+        "bytes": 246507
+      }
+    ]
+  },
+  {
+    "id": "d78aa970d4a8",
+    "cycle": "Siklus 2",
+    "stages": [
+      "part"
+    ],
+    "category": "Jobsheet",
+    "title": "Jobsheet 5 · Flange Pipa",
+    "description": "Gambar kerja dan ukuran asli untuk mendampingi praktik.",
+    "audience": "student",
+    "cover": "previews/koleksi/d78aa970d4a8.jpg",
+    "moduleTitle": "Part 3D",
+    "formats": [
+      {
+        "extension": "pdf",
+        "name": "Jobsheet 5 Siklus 2_Flange Pipa.pdf",
+        "asset": "48365cde687367a1e0710613.pdf",
+        "bytes": 97198
+      }
+    ]
+  },
+  {
+    "id": "f4b118024761",
+    "cycle": "Siklus 2",
+    "stages": [
+      "part"
+    ],
+    "category": "Jobsheet",
+    "title": "Jobsheet 6 · Bottle",
+    "description": "Gambar kerja dan ukuran asli untuk mendampingi praktik.",
+    "audience": "student",
+    "cover": "previews/koleksi/f4b118024761.jpg",
+    "moduleTitle": "Part 3D",
+    "formats": [
+      {
+        "extension": "pdf",
+        "name": "Jobsheet 6 Siklus 2_Bottle.pdf",
+        "asset": "6bb5f7f5cc76df1e9d28bc53.pdf",
+        "bytes": 151571
+      }
+    ]
+  },
+  {
+    "id": "45095149ea25",
+    "cycle": "Siklus 2",
+    "stages": [
+      "intro",
+      "sketch",
+      "part"
+    ],
+    "category": "LKM",
+    "title": "LKM · Sketch 2D & part 3D",
+    "description": "Lembar kerja untuk mencatat rencana, hasil pemeriksaan, dan refleksi praktik.",
+    "audience": "student",
+    "cover": "previews/koleksi/45095149ea25.jpg",
+    "moduleTitle": "Lintas modul",
+    "formats": [
+      {
+        "extension": "pdf",
+        "name": "LKM Siklus 2_Pengenalan Autodesk Fusion dan Pemodelan Part 3D.pdf",
+        "asset": "4e8187482c3beb7c4a0d89c8.pdf",
+        "bytes": 1745763
+      },
+      {
+        "extension": "docx",
+        "name": "LKM Siklus 2_Pengenalan Autodesk Fusion dan Pemodelan Part 3D.docx",
+        "asset": "f2566729769e720b5274a960.docx",
+        "bytes": 2634377
+      }
+    ]
+  },
+  {
+    "id": "078d8cab3717",
+    "cycle": "Siklus 2",
+    "stages": [
+      "intro",
+      "sketch"
+    ],
+    "category": "Media pembelajaran",
+    "title": "Pengenalan Fusion & dasar sketch",
+    "description": "Slide visual pertemuan 1: konsep, ilustrasi fitur, dan langkah praktik.",
+    "audience": "student",
+    "meeting": 1,
+    "cover": "previews/koleksi/078d8cab3717.jpg",
+    "moduleTitle": "Lintas modul",
+    "formats": [
+      {
+        "extension": "pdf",
+        "name": "Media Pembelajaran Siklus 2_Pertemuan 1.pdf",
+        "asset": "25ce04279795c34c3a366c2d.pdf",
+        "bytes": 8434669
+      }
+    ]
+  },
+  {
+    "id": "12c943f44fa8",
+    "cycle": "Siklus 2",
+    "stages": [
+      "part"
+    ],
+    "category": "Media pembelajaran",
+    "title": "Dudukan Poros & Pulley",
+    "description": "Slide visual pertemuan 2: konsep, ilustrasi fitur, dan langkah praktik.",
+    "audience": "student",
+    "meeting": 2,
+    "cover": "previews/koleksi/12c943f44fa8.jpg",
+    "moduleTitle": "Part 3D",
+    "formats": [
+      {
+        "extension": "pdf",
+        "name": "Media Pembelajaran Siklus 2_Pertemuan 2.pdf",
+        "asset": "b42d7012c0a7f4bf4445ea55.pdf",
+        "bytes": 17581717
+      }
+    ]
+  },
+  {
+    "id": "c501ce7f5e20",
+    "cycle": "Siklus 2",
+    "stages": [
+      "part"
+    ],
+    "category": "Media pembelajaran",
+    "title": "Flange Pipa & Bottle",
+    "description": "Slide visual pertemuan 3: konsep, ilustrasi fitur, dan langkah praktik.",
+    "audience": "student",
+    "meeting": 3,
+    "cover": "previews/koleksi/c501ce7f5e20.jpg",
+    "moduleTitle": "Part 3D",
+    "formats": [
+      {
+        "extension": "pdf",
+        "name": "Media Pembelajaran Siklus 2_Pertemuan 3.pdf",
+        "asset": "8e6018a03c4f5e58c5333866.pdf",
+        "bytes": 18810729
+      }
+    ]
+  },
+  {
+    "id": "7434e2a4425c",
+    "cycle": "Siklus 2",
+    "stages": [
+      "sketch"
+    ],
+    "category": "Gambar sketch",
+    "title": "Plat Sambung",
+    "description": "Gambar referensi latihan sketch 2D.",
+    "audience": "student",
+    "cover": "previews/koleksi/7434e2a4425c.jpg",
+    "moduleTitle": "Sketch 2D",
+    "formats": [
+      {
+        "extension": "png",
+        "name": "Plat Sambung.png",
+        "asset": "8da506eb8f4a85ba24f51284.png",
+        "bytes": 1497679
+      }
+    ]
+  },
+  {
+    "id": "7782860bd1fa",
+    "cycle": "Siklus 2",
+    "stages": [
+      "intro",
+      "sketch",
+      "part"
+    ],
+    "category": "RPP",
+    "title": "RPP · Siklus 2",
+    "description": "Perencanaan pembelajaran, kegiatan pertemuan, dan pendampingan praktik.",
+    "audience": "teacher",
+    "cover": "previews/koleksi/7782860bd1fa.jpg",
+    "moduleTitle": "Lintas modul",
+    "formats": [
+      {
+        "extension": "pdf",
+        "name": "RPP PPL Mandiri Siklus 2_TFLM-Perancangan_Hendra Mahardhika.pdf",
+        "asset": "c555758b65688a4e6de3d8a9.pdf",
+        "bytes": 507051
+      },
+      {
+        "extension": "docx",
+        "name": "RPP PPL Mandiri Siklus 2_TFLM-Perancangan_Hendra Mahardhika.docx",
+        "asset": "59611a71d4b0d0e43aec788c.docx",
+        "bytes": 1903604
+      }
+    ]
+  },
+  {
+    "id": "483a06c58b04",
+    "cycle": "Siklus 2",
+    "stages": [
+      "intro",
+      "sketch",
+      "part"
+    ],
+    "category": "Rubrik",
+    "title": "Rubrik penilaian · Siklus 2",
+    "description": "Acuan kriteria penilaian hasil dan proses pembelajaran.",
+    "audience": "teacher",
+    "cover": "previews/koleksi/483a06c58b04.jpg",
+    "moduleTitle": "Lintas modul",
+    "formats": [
+      {
+        "extension": "pdf",
+        "name": "Rubrik Penilaian Siklus 2_TFLM-Perancangan.pdf",
+        "asset": "3ffd4f7418c78b1fa654c4bd.pdf",
+        "bytes": 323392
+      },
+      {
+        "extension": "docx",
+        "name": "Rubrik Penilaian Siklus 2_TFLM-Perancangan.docx",
+        "asset": "587be2f02d433ef0cac71d06.docx",
+        "bytes": 1245045
+      }
+    ]
+  },
+  {
+    "id": "96388a2bc69c",
+    "cycle": "Siklus 2",
+    "stages": [
+      "sketch"
+    ],
+    "category": "Gambar sketch",
+    "title": "V Block",
+    "description": "Gambar referensi latihan sketch 2D.",
+    "audience": "student",
+    "cover": "previews/koleksi/96388a2bc69c.jpg",
+    "moduleTitle": "Sketch 2D",
+    "formats": [
+      {
+        "extension": "png",
+        "name": "V Block.png",
+        "asset": "706fde58afc75393b8d4a474.png",
+        "bytes": 1045367
+      }
+    ]
+  },
+  {
+    "id": "8a4889052fb0",
+    "cycle": "Siklus 4",
+    "stages": [
+      "assembly"
+    ],
+    "category": "Bahan ajar",
+    "title": "Pemodelan part 3D & assembly piston",
+    "description": "Bahan ajar lengkap untuk memahami konsep, fitur, dan alur praktik.",
+    "audience": "student",
+    "cover": "previews/koleksi/8a4889052fb0.jpg",
+    "moduleTitle": "Assembly",
+    "formats": [
+      {
+        "extension": "pdf",
+        "name": "Bahan Ajar Siklus 4_Permodelan Part 3D dan Assembly Part.pdf",
+        "asset": "537087f8c81b3a0fd3aaa685.pdf",
+        "bytes": 1376536
+      },
+      {
+        "extension": "docx",
+        "name": "Bahan Ajar Siklus 4_Permodelan Part 3D dan Assembly Part.docx",
+        "asset": "ca9d7ee702aded075a410a2e.docx",
+        "bytes": 4178047
+      }
+    ]
+  },
+  {
+    "id": "0df68e4ffdc7",
+    "cycle": "Siklus 4",
+    "stages": [
+      "assembly"
+    ],
+    "category": "Aset desain",
+    "title": "Cover Bahan Ajar Siklus 4",
+    "description": "Aset visual pembelajaran untuk penyusunan materi guru.",
+    "audience": "teacher",
+    "cover": "previews/koleksi/0df68e4ffdc7.jpg",
+    "moduleTitle": "Assembly",
+    "formats": [
+      {
+        "extension": "png",
+        "name": "Cover_Bahan_Ajar_Siklus_4.png",
+        "asset": "301959acc6d3e81ea7904d9c.png",
+        "bytes": 1582731
+      }
+    ]
+  },
+  {
+    "id": "8897b33dc5ee",
+    "cycle": "Siklus 4",
+    "stages": [
+      "assembly"
+    ],
+    "category": "Aset desain",
+    "title": "Cover RPP TFLM Siklus 4",
+    "description": "Aset visual pembelajaran untuk penyusunan materi guru.",
+    "audience": "teacher",
+    "cover": "previews/koleksi/8897b33dc5ee.jpg",
+    "moduleTitle": "Assembly",
+    "formats": [
+      {
+        "extension": "png",
+        "name": "Cover_RPP_TFLM_Siklus_4.png",
+        "asset": "60c3963a544ce58cfc085b3f.png",
+        "bytes": 1800368
+      }
+    ]
+  },
+  {
+    "id": "e0322c6f25e7",
+    "cycle": "Siklus 4",
+    "stages": [
+      "assembly"
+    ],
+    "category": "Asesmen",
+    "title": "Asesmen pertemuan 4 · Cylinder Block & Piston Head",
+    "description": "Instrumen asesmen, kisi-kisi, dan pedoman pemeriksaan pembelajaran.",
+    "audience": "teacher",
+    "meeting": 4,
+    "cover": "previews/koleksi/e0322c6f25e7.jpg",
+    "moduleTitle": "Assembly",
+    "formats": [
+      {
+        "extension": "pdf",
+        "name": "Instrumen Asesmen Siklus 4_Pertemuan 4.pdf",
+        "asset": "017a0a2db79b2604bf146b51.pdf",
+        "bytes": 304676
+      },
+      {
+        "extension": "docx",
+        "name": "Instrumen Asesmen Siklus 4_Pertemuan 4.docx",
+        "asset": "7f9318e88f39972c838ca38a.docx",
+        "bytes": 1622404
+      }
+    ]
+  },
+  {
+    "id": "ee755f94d4b2",
+    "cycle": "Siklus 4",
+    "stages": [
+      "assembly"
+    ],
+    "category": "Asesmen",
+    "title": "Asesmen pertemuan 5 · Pin Piston & Connecting Rod",
+    "description": "Instrumen asesmen, kisi-kisi, dan pedoman pemeriksaan pembelajaran.",
+    "audience": "teacher",
+    "meeting": 5,
+    "cover": "previews/koleksi/ee755f94d4b2.jpg",
+    "moduleTitle": "Assembly",
+    "formats": [
+      {
+        "extension": "pdf",
+        "name": "Instrumen Asesmen Siklus 4_Pertemuan 5.pdf",
+        "asset": "e6cedd1439c55c6feab73a55.pdf",
+        "bytes": 304568
+      },
+      {
+        "extension": "docx",
+        "name": "Instrumen Asesmen Siklus 4_Pertemuan 5.docx",
+        "asset": "096d066bc0ff81b29861c2a9.docx",
+        "bytes": 1621879
+      }
+    ]
+  },
+  {
+    "id": "50f550ebb8fa",
+    "cycle": "Siklus 4",
+    "stages": [
+      "assembly"
+    ],
+    "category": "Asesmen",
+    "title": "Asesmen pertemuan 6 · Crankshaft & Assembly Piston",
+    "description": "Instrumen asesmen, kisi-kisi, dan pedoman pemeriksaan pembelajaran.",
+    "audience": "teacher",
+    "meeting": 6,
+    "cover": "previews/koleksi/50f550ebb8fa.jpg",
+    "moduleTitle": "Assembly",
+    "formats": [
+      {
+        "extension": "pdf",
+        "name": "Instrumen Asesmen Siklus 4_Pertemuan 6.pdf",
+        "asset": "fa8a7b8736f24c4bce44e18c.pdf",
+        "bytes": 297446
+      },
+      {
+        "extension": "docx",
+        "name": "Instrumen Asesmen Siklus 4_Pertemuan 6.docx",
+        "asset": "7d3fa120693162736ccd8405.docx",
+        "bytes": 1622497
+      }
+    ]
+  },
+  {
+    "id": "def91cf0a16d",
+    "cycle": "Siklus 4",
+    "stages": [
+      "assembly"
+    ],
+    "category": "Jobsheet",
+    "title": "Jobsheet 1 · Assembly Piston Cylinder Block",
+    "description": "Gambar kerja dan ukuran asli untuk mendampingi praktik.",
+    "audience": "student",
+    "cover": "previews/koleksi/def91cf0a16d.jpg",
+    "moduleTitle": "Assembly",
+    "formats": [
+      {
+        "extension": "pdf",
+        "name": "Jobsheet 1 Siklus 4_Assembly Piston_Cylinder Block.pdf",
+        "asset": "f1eab0c6b0a46e54aa6bc255.pdf",
+        "bytes": 124878
+      }
+    ]
+  },
+  {
+    "id": "f870ecb74e5d",
+    "cycle": "Siklus 4",
+    "stages": [
+      "assembly"
+    ],
+    "category": "Jobsheet",
+    "title": "Jobsheet 11 dan 12 · TFLM-Perancangan",
+    "description": "Paket gambar kerja gabungan. Gunakan ukuran dan keterangan pada dokumen asli.",
+    "audience": "student",
+    "cover": "previews/koleksi/f870ecb74e5d.jpg",
+    "moduleTitle": "Assembly",
+    "formats": [
+      {
+        "extension": "pdf",
+        "name": "Jobsheet 11 dan 12 Siklus 4_TFLM-Perancangan.pdf",
+        "asset": "7a58cd9cb14dd69cae9bb85c.pdf",
+        "bytes": 935437
+      }
+    ]
+  },
+  {
+    "id": "316bd33a6adc",
+    "cycle": "Siklus 4",
+    "stages": [
+      "assembly"
+    ],
+    "category": "Jobsheet",
+    "title": "Jobsheet 2 · Assembly Piston Piston Head",
+    "description": "Gambar kerja dan ukuran asli untuk mendampingi praktik.",
+    "audience": "student",
+    "cover": "previews/koleksi/316bd33a6adc.jpg",
+    "moduleTitle": "Assembly",
+    "formats": [
+      {
+        "extension": "pdf",
+        "name": "Jobsheet 2 Siklus 4__Assembly Piston_Piston Head.pdf",
+        "asset": "ae1f0fb8b0fbc414f3e90cc1.pdf",
+        "bytes": 305832
+      }
+    ]
+  },
+  {
+    "id": "ffa6fe59a4c3",
+    "cycle": "Siklus 4",
+    "stages": [
+      "assembly"
+    ],
+    "category": "Jobsheet",
+    "title": "Jobsheet 3 · Assembly Piston Pin Piston",
+    "description": "Gambar kerja dan ukuran asli untuk mendampingi praktik.",
+    "audience": "student",
+    "cover": "previews/koleksi/ffa6fe59a4c3.jpg",
+    "moduleTitle": "Assembly",
+    "formats": [
+      {
+        "extension": "pdf",
+        "name": "Jobsheet 3 Siklus 4__Assembly Piston_Pin Piston.pdf",
+        "asset": "46b44b5bd6b65d9baa578675.pdf",
+        "bytes": 156637
+      }
+    ]
+  },
+  {
+    "id": "34c13adb4262",
+    "cycle": "Siklus 4",
+    "stages": [
+      "assembly"
+    ],
+    "category": "Jobsheet",
+    "title": "Jobsheet 4 · Assembly Piston Connecting Road",
+    "description": "Gambar kerja dan ukuran asli untuk mendampingi praktik.",
+    "audience": "student",
+    "cover": "previews/koleksi/34c13adb4262.jpg",
+    "moduleTitle": "Assembly",
+    "formats": [
+      {
+        "extension": "pdf",
+        "name": "Jobsheet 4 Siklus 4__Assembly Piston_Connecting Road.pdf",
+        "asset": "f476893f91742abef499b2b0.pdf",
+        "bytes": 161372
+      }
+    ]
+  },
+  {
+    "id": "68af1d7562aa",
+    "cycle": "Siklus 4",
+    "stages": [
+      "assembly"
+    ],
+    "category": "Jobsheet",
+    "title": "Jobsheet 5 · Assembly Piston Crankshaft",
+    "description": "Gambar kerja dan ukuran asli untuk mendampingi praktik.",
+    "audience": "student",
+    "cover": "previews/koleksi/68af1d7562aa.jpg",
+    "moduleTitle": "Assembly",
+    "formats": [
+      {
+        "extension": "pdf",
+        "name": "Jobsheet 5 Siklus 4_Assembly Piston_Crankshaft.pdf",
+        "asset": "d43f955da28837d9953c49b5.pdf",
+        "bytes": 158742
+      }
+    ]
+  },
+  {
+    "id": "a9e660ce824c",
+    "cycle": "Siklus 4",
+    "stages": [
+      "assembly"
+    ],
+    "category": "Jobsheet",
+    "title": "Jobsheet 7 dan 8 · TFLM-Perancangan",
+    "description": "Paket gambar kerja gabungan. Gunakan ukuran dan keterangan pada dokumen asli.",
+    "audience": "student",
+    "cover": "previews/koleksi/a9e660ce824c.jpg",
+    "moduleTitle": "Assembly",
+    "formats": [
+      {
+        "extension": "pdf",
+        "name": "Jobsheet 7 dan 8 Siklus 4_TFLM-Perancangan.pdf",
+        "asset": "06d87aaca9936505fcdaeb5c.pdf",
+        "bytes": 428093
+      }
+    ]
+  },
+  {
+    "id": "a20eb234adb8",
+    "cycle": "Siklus 4",
+    "stages": [
+      "assembly"
+    ],
+    "category": "Jobsheet",
+    "title": "Jobsheet 9 dan 10 · TFLM-Perancangan",
+    "description": "Paket gambar kerja gabungan. Gunakan ukuran dan keterangan pada dokumen asli.",
+    "audience": "student",
+    "cover": "previews/koleksi/a20eb234adb8.jpg",
+    "moduleTitle": "Assembly",
+    "formats": [
+      {
+        "extension": "pdf",
+        "name": "Jobsheet 9 dan 10 Siklus 4_TFLM-Perancangan.pdf",
+        "asset": "6dd25b7b1f8bca4a986dccc4.pdf",
+        "bytes": 314970
+      }
+    ]
+  },
+  {
+    "id": "60b05352e97a",
+    "cycle": "Siklus 4",
+    "stages": [
+      "assembly"
+    ],
+    "category": "Jobsheet",
+    "title": "Jobsheet · Assembly Piston Full",
+    "description": "Gambar kerja dan ukuran asli untuk mendampingi praktik.",
+    "audience": "student",
+    "cover": "previews/koleksi/60b05352e97a.jpg",
+    "moduleTitle": "Assembly",
+    "formats": [
+      {
+        "extension": "pdf",
+        "name": "Jobsheet Siklus 4_Assembly Piston_Full.pdf",
+        "asset": "fed5b7e2099ebc8066080b98.pdf",
+        "bytes": 782983
+      }
+    ]
+  },
+  {
+    "id": "42af0b51de05",
+    "cycle": "Siklus 4",
+    "stages": [
+      "assembly"
+    ],
+    "category": "Jobsheet",
+    "title": "Jobsheet · Assembly Piston Isometris",
+    "description": "Gambar kerja dan ukuran asli untuk mendampingi praktik.",
+    "audience": "student",
+    "cover": "previews/koleksi/42af0b51de05.jpg",
+    "moduleTitle": "Assembly",
+    "formats": [
+      {
+        "extension": "pdf",
+        "name": "Jobsheet Siklus 4_Assembly Piston_Isometris.pdf",
+        "asset": "615dfc79d5d5e8105615dbd2.pdf",
+        "bytes": 266194
+      }
+    ]
+  },
+  {
+    "id": "78ed7db6e592",
+    "cycle": "Siklus 4",
+    "stages": [
+      "assembly"
+    ],
+    "category": "LKM",
+    "title": "LKM · Part 3D & assembly piston",
+    "description": "Lembar kerja untuk mencatat rencana, hasil pemeriksaan, dan refleksi praktik.",
+    "audience": "student",
+    "cover": "previews/koleksi/78ed7db6e592.jpg",
+    "moduleTitle": "Assembly",
+    "formats": [
+      {
+        "extension": "pdf",
+        "name": "LKM Siklus 4_Pemodelan Part 3D dan Assembly Piston.pdf",
+        "asset": "11b0bb0aeb942a9243d14658.pdf",
+        "bytes": 1894900
+      },
+      {
+        "extension": "docx",
+        "name": "LKM Siklus 4_Pemodelan Part 3D dan Assembly Piston.docx",
+        "asset": "d4e3bc34b13aa8d5739d23e6.docx",
+        "bytes": 2157536
+      }
+    ]
+  },
+  {
+    "id": "4033bd4a84c3",
+    "cycle": "Siklus 4",
+    "stages": [
+      "assembly"
+    ],
+    "category": "Media pembelajaran",
+    "title": "Cylinder Block & Piston Head",
+    "description": "Slide visual pertemuan 4: konsep, ilustrasi fitur, dan langkah praktik.",
+    "audience": "student",
+    "meeting": 4,
+    "cover": "previews/koleksi/4033bd4a84c3.jpg",
+    "moduleTitle": "Assembly",
+    "formats": [
+      {
+        "extension": "pdf",
+        "name": "Media Pembelajaran Siklus 4_Pertemuan 4.pdf",
+        "asset": "c5c51f906efa80b34b7316d1.pdf",
+        "bytes": 19220647
+      }
+    ]
+  },
+  {
+    "id": "5b89a03dc5db",
+    "cycle": "Siklus 4",
+    "stages": [
+      "assembly"
+    ],
+    "category": "Media pembelajaran",
+    "title": "Pin Piston & Connecting Rod",
+    "description": "Slide visual pertemuan 5: konsep, ilustrasi fitur, dan langkah praktik.",
+    "audience": "student",
+    "meeting": 5,
+    "cover": "previews/koleksi/5b89a03dc5db.jpg",
+    "moduleTitle": "Assembly",
+    "formats": [
+      {
+        "extension": "pdf",
+        "name": "Media Pembelajaran Siklus 4_Pertemuan 5.pdf",
+        "asset": "3a913e1fba933aa0c85de034.pdf",
+        "bytes": 9270330
+      }
+    ]
+  },
+  {
+    "id": "dec5b3ab8d89",
+    "cycle": "Siklus 4",
+    "stages": [
+      "assembly"
+    ],
+    "category": "Media pembelajaran",
+    "title": "Crankshaft & Assembly Piston",
+    "description": "Slide visual pertemuan 6: konsep, ilustrasi fitur, dan langkah praktik.",
+    "audience": "student",
+    "meeting": 6,
+    "cover": "previews/koleksi/dec5b3ab8d89.jpg",
+    "moduleTitle": "Assembly",
+    "formats": [
+      {
+        "extension": "pdf",
+        "name": "Media Pembelajaran Siklus 4_Pertemuan 6.pdf",
+        "asset": "eda225393bb2b12943904e93.pdf",
+        "bytes": 8074014
+      }
+    ]
+  },
+  {
+    "id": "f578293c02b9",
+    "cycle": "Siklus 4",
+    "stages": [
+      "assembly"
+    ],
+    "category": "RPP",
+    "title": "RPP · Siklus 4",
+    "description": "Perencanaan pembelajaran, kegiatan pertemuan, dan pendampingan praktik.",
+    "audience": "teacher",
+    "cover": "previews/koleksi/f578293c02b9.jpg",
+    "moduleTitle": "Assembly",
+    "formats": [
+      {
+        "extension": "pdf",
+        "name": "RPP PPL Mandiri Siklus 4_TFLM-Perancangan_Hendra Mahardhika.pdf",
+        "asset": "11c7665ca7856852cbed908d.pdf",
+        "bytes": 497547
+      },
+      {
+        "extension": "docx",
+        "name": "RPP PPL Mandiri Siklus 4_TFLM-Perancangan_Hendra Mahardhika.docx",
+        "asset": "b6a6f45e832d92c9e4a5d4c2.docx",
+        "bytes": 1850788
+      }
+    ]
+  },
+  {
+    "id": "409ffe1d4dc3",
+    "cycle": "Siklus 4",
+    "stages": [
+      "assembly"
+    ],
+    "category": "Rubrik",
+    "title": "Rubrik penilaian · Siklus 4",
+    "description": "Acuan kriteria penilaian hasil dan proses pembelajaran.",
+    "audience": "teacher",
+    "cover": "previews/koleksi/409ffe1d4dc3.jpg",
+    "moduleTitle": "Assembly",
+    "formats": [
+      {
+        "extension": "pdf",
+        "name": "Rubrik Penilaian Siklus 4.pdf",
+        "asset": "2db43c5f0120e590e4e7f7a4.pdf",
+        "bytes": 322336
+      },
+      {
+        "extension": "docx",
+        "name": "Rubrik Penilaian Siklus 4.docx",
+        "asset": "7e65afcb6159b4310045456b.docx",
+        "bytes": 1245142
+      }
+    ]
+  }
+]
