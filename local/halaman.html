@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#1458cb">
+<title>Parametra Lab · Studio CAD</title>
+<style>
+:root{--ink:#102c50;--sub:#526b8c;--blue:#1458cb;--line:#cbdcf8;--sky:#f0f6ff;--side:clamp(218px,16.2vw,304px);font:16px/1.55 "Segoe UI",system-ui,sans-serif;color:var(--ink);color-scheme:light}*{box-sizing:border-box}body{margin:0;background-color:var(--sky);background-image:linear-gradient(#dce9fa66 1px,transparent 1px),linear-gradient(90deg,#dce9fa66 1px,transparent 1px);background-size:35px 35px}a{color:var(--blue);text-decoration:none}button,select,textarea{font:inherit;color:inherit}button,select,.action{background:white;border:1px solid var(--line);border-radius:10px;padding:.6rem .9rem;cursor:pointer}.action,button{font-weight:600}.action{display:inline-flex;align-items:center;justify-content:center}a:hover,button:hover{color:#0948ac;background:#eff6ff}button:disabled{cursor:default;opacity:.65}button[aria-pressed=true],button[aria-current=step],.active,.action.primary{background:var(--blue);color:white;border-color:var(--blue)}:focus-visible{outline:3px solid #ed8a18;outline-offset:2px}[hidden]{display:none!important}.skip{position:fixed;left:-999px;z-index:10}.skip:focus{left:8px;top:4px;background:white}.ico{width:1.25em;height:1.25em;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;vertical-align:middle;flex:none}.sidebar{position:fixed;inset:0 auto 0 0;width:var(--side);background:#fff;border-right:1px solid #a9c2df;display:flex;flex-direction:column;padding:28px 16px 18px;z-index:3}.brand{display:flex;gap:12px;align-items:center;padding:4px 8px 26px;color:var(--ink)}.brand b{font-size:1.25rem;letter-spacing:-.045em}.badge{display:grid;place-items:center;background:#e6f1ff;color:#0861cd;border:1px solid #bfd7fb;border-radius:14px;width:46px;height:48px;box-shadow:0 0 0 5px #f4f8ff}.badge svg{width:28px;height:28px}.micro,.brand small,.eyebrow{font:600 .68rem/1.6 ui-monospace,monospace;letter-spacing:.09em;text-transform:uppercase}.brand small{display:block;font-size:.55rem;color:#55708e}.rail{overflow:auto;flex:1}.rail p{font-size:.74rem;font-weight:650;letter-spacing:.12em;color:var(--sub);margin:24px 10px 14px}.rail a{display:flex;align-items:center;gap:12px;padding:12px;border-radius:10px;margin-bottom:5px;color:#234466}.rail a[aria-current=page]{color:white;background:var(--blue);box-shadow:0 4px 12px #0e4a9820}.railfoot{border-radius:14px;background:#123960;color:white;border-top:3px solid #fd7a1c;padding:18px 16px;font-size:.88rem}.railfoot small{display:block;margin-top:4px}.menuBtn{display:none}main{margin-left:var(--side);padding:clamp(18px,2.4vw,46px);min-height:100vh}h1,h2,h3,p{margin:0 0 .65em}h1,h2,h3{line-height:1.15;letter-spacing:-.035em}h1{font-size:clamp(2.4rem,3.3vw,4rem)}h2{font-size:clamp(1.45rem,2vw,2.1rem)}h3{font-size:1.16rem}p{color:var(--sub)}.hero{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:30px}.hero h1{font-weight:800;margin:0 0 12px}.teal{color:#087694}.orange{color:#d95404}.hero p{font-size:1.1rem}.seal{text-align:center;color:#1979ce;min-width:150px}.seal .ico{width:84px;height:84px;padding:17px;border:1px dashed #86bdec;border-radius:50%;box-shadow:0 0 0 8px #f0f7ff,0 0 0 9px #a8d1f1}.seal small{display:block;margin-top:18px}.homegrid{display:grid;grid-template-columns:minmax(0,1.8fr) minmax(255px,1fr);gap:22px;align-items:start}.card,article,.guide{background:white;border:1px solid var(--line);border-radius:19px;padding:clamp(18px,2vw,32px);min-width:0}.eyebrow{color:#1267aa;margin:2px 0 14px}.homeprev{border:1px solid var(--line);border-radius:12px;overflow:hidden;margin:20px 0 12px}.bar{display:flex;justify-content:space-between;gap:8px;background:#f5f9ff;color:#245b98;padding:9px 12px;border-bottom:1px solid var(--line)}video{display:block;width:100%;height:clamp(240px,34vw,420px);object-fit:contain;background:white}.journey a,.row{display:flex;align-items:center;gap:12px;border-bottom:1px solid #e1ebf7;padding:16px 4px;color:var(--ink)}.journey a:last-child,.row:last-child{border-bottom:0}.journey b,.row b{display:block}.journey small,.row small{display:block;color:var(--sub);margin-top:3px}.num{font:700 .82rem monospace;color:var(--blue);padding:12px 9px;border-radius:9px;border:1px solid var(--line);background:#eff6ff}.tip{background:#fff7eb;border:1px solid #ffd5a6;border-left:4px solid #ff7b1c;border-radius:15px;padding:19px;margin-top:18px}.tip b,.tip p{color:#974306}.tip p{margin:5px 0 0}.pagetitle{margin-bottom:18px}.pagetitle h1{margin:2px 0 8px}.modules,.sheetGrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,205px),1fr));gap:12px}.modules a{display:block;border:1px solid var(--line);border-radius:14px;background:#fff;padding:24px;color:var(--ink)}.modules a:hover{background:#f6faff}.modules .num{display:inline-block;margin-bottom:16px}.modules p{font-size:.93rem}.sheetGrid{grid-template-columns:repeat(3,minmax(0,1fr));margin:16px 0 22px}.sheetGrid a{padding:15px 14px;border:1px solid var(--line);border-radius:10px;font-weight:650}.sheetGrid a[aria-current=true]{color:white;background:var(--blue)}.choose,.actions,.steps,.pos,.tools{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.choose{margin-bottom:15px}select{max-width:100%}.steps{margin:16px 0}.steps button{flex:1}.pos{margin:12px 0}.stageGrid{display:grid;gap:14px;align-items:start}.stageGrid.right{grid-template-columns:minmax(0,1.25fr) minmax(0,1fr)}.visual{background:#15293d;position:relative;isolation:isolate;border-radius:12px;overflow:hidden;min-width:0}.visual:before{content:"";position:absolute;z-index:-1;left:-50%;bottom:-35%;height:95%;width:200%;background-image:linear-gradient(#3e6784 1px,transparent 1px),linear-gradient(90deg,#3e6784 1px,transparent 1px);background-size:36px 36px;transform:perspective(280px) rotateX(57deg);opacity:.64}.hud{position:absolute;left:16px;top:14px;color:#c0d5eb;pointer-events:none;font-size:.85rem}.hud b{display:block}.visual canvas,#flat{display:block;width:100%;height:clamp(310px,44vh,520px);object-fit:contain}.visual canvas{touch-action:pan-y;cursor:grab}#flat{background:#fff}.tools{justify-content:center;padding:8px;position:relative}.tools button{background:#203c53;color:#edf6ff;border-color:#496175;font-size:.82rem;padding:6px 9px}.tools button[aria-pressed=true]{background:#1468bc}.visual:fullscreen{display:grid;align-content:center}.visual:fullscreen canvas{height:78vh}.paper{border:1px solid var(--line);border-radius:11px;overflow:hidden}.paper iframe{display:block;width:100%;height:clamp(290px,43vh,495px);border:0}.actions{margin:12px 0}.note{font-size:.9rem;color:var(--sub)}textarea{display:block;margin:8px 0 16px;width:100%;padding:12px;min-height:90px;border:1px solid var(--line);border-radius:8px}.checks label{display:block;margin:10px 0}.checks input{accent-color:var(--blue);margin-right:8px}.guide img{max-width:100%;display:block;margin:15px auto}.guide li{margin:8px}.guide summary{font-weight:700;cursor:pointer}.row{justify-content:space-between}.row div{min-width:0;overflow-wrap:anywhere}.row p{white-space:pre-wrap}.listintro{margin-bottom:12px}footer{color:var(--sub);font-size:.82rem;margin-top:28px}
+@media(max-width:980px){.homegrid{grid-template-columns:minmax(0,1.45fr) minmax(210px,1fr);gap:12px}.seal{display:none}.stageGrid.right{grid-template-columns:1fr}.hero{margin-bottom:18px}}
+@media(max-width:760px){.sidebar{position:sticky;top:0;width:100%;padding:8px 12px;border:0;border-bottom:1px solid var(--line);display:grid;grid-template-columns:1fr auto;align-items:center}.brand{padding:0}.badge{width:37px;height:37px;box-shadow:none}.menuBtn{display:block}.rail{display:none;grid-column:1/-1;max-height:65vh}.sidebar.open .rail{display:block}.railfoot{display:none}main{margin:0;padding:20px 14px}.homegrid{grid-template-columns:1fr}.hero h1{font-size:clamp(2.15rem,8vw,3.25rem)}.sheetGrid{grid-template-columns:1fr 1fr}.steps{display:grid;grid-template-columns:1fr 1fr}.actions .action{font-size:.9rem}.row{align-items:flex-start}.stageGrid.right{grid-template-columns:1fr}select{width:100%}}
+.brand b,.brand small{white-space:nowrap}.brand .badge{flex-shrink:0}.brand{gap:9px}.brand small{letter-spacing:.055em}
+#sheetGrid{scroll-margin-top:4px}
+@media(max-width:760px){#sheetGrid{scroll-margin-top:68px}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+.mission{background:#14273d;color:white;border-radius:16px;overflow:hidden;position:relative;min-width:0}
+.mission-heading{padding:26px 28px 0;position:relative;z-index:1}
+.mission-heading .eyebrow{color:#bfd692}
+.mission-heading h2{font-size:1.9rem;margin:10px 0}
+.mission-heading p{color:#b9c8d8;font-size:.92rem}
+.mission-bottom{padding:20px 28px 26px;display:flex;align-items:center;justify-content:space-between;gap:15px}
+.mission-bottom p{font-size:.8rem;color:#becbdd}
+.section-title{display:flex;justify-content:space-between;align-items:center;gap:16px;margin:32px 0 18px}
+.section-title p{margin-top:5px;font-size:.9rem}
+.course-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.course-card{background:white;border:1px solid var(--border);border-radius:12px;overflow:hidden;text-align:left;display:flex;flex-direction:column;transition:transform .2s,border-color .2s}
+.course-card:hover{transform:translateY(-3px);border-color:#99adbf}
+.course-top{height:126px;display:flex;align-items:center;justify-content:center;position:relative;background:#e8eef2;color:#486273}
+.course-top svg{height:52px;width:52px;stroke-width:1.2}
+.course-top .eyebrow{position:absolute;left:18px;top:14px;font-size:.68rem}
+.course-body{padding:19px}
+.course-body h3{margin:5px 0 9px}
+.course-body p{font-size:.85rem;line-height:1.6}
+.course-footer{display:flex;justify-content:space-between;font-size:.8rem;color:#647185;margin-top:18px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.stat{padding:15px 12px;border:1px solid var(--border);border-radius:10px}
+.stat b{display:block;font-size:1.5rem;letter-spacing:-.05em}
+.stat span{font-size:.78rem;color:#68788b}
+@media(max-width:1100px){.course-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.mission-heading h2{font-size:1.6rem}
+}
+@media(max-width:600px){.course-grid{grid-template-columns:1fr}
+.mission-heading{padding:22px 20px 0}
+.mission-bottom{padding:16px 20px 22px;flex-wrap:wrap}
+.section-title{align-items:flex-start}
+.stats{gap:6px}
+.stat{padding:12px 8px}
+.stat b{font-size:1.3rem}
+}
+.module-meeting{position:absolute;bottom:10px;left:18px;font-size:.75rem;color:#4d6071}
+.tint-1{background:#e5eddd;color:#526743}
+.tint-2{background:#e3e9f7;color:#556797}
+.rubric-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.rubric-grid{row-gap:26px}
+.rubric-grid p{font-size:.9rem}
+.stat span,.course-footer{font-size:.875rem}
+.course-body p{font-size:.95rem}
+@media(max-width:600px){.rubric-grid{grid-template-columns:1fr}
+.course-top{height:140px}
+.stats{grid-template-columns:repeat(3,minmax(0,1fr))}
+.stat span{font-size:.75rem}
+}
+.mission-video{margin:18px 28px 0;border-radius:12px;overflow:hidden;background:#0c1826;border:1px solid #2b425b}
+.mission-video video{display:block;width:100%;height:310px;object-fit:contain;background:#0c1826}
+@media(max-width:600px){.mission-video{margin:16px 20px 0}
+.mission-video video{height:230px}
+}
+.course-main{display:block;color:inherit;flex:1}
+.course-main:focus-visible{outline:3px solid #54816b;outline-offset:-3px}
+.module-card-options{display:grid;gap:7px;padding:0 19px 19px;margin-top:auto}
+.module-card-options a{display:flex;align-items:center;gap:10px;padding:10px 12px;border:1px solid #dae3eb;border-radius:8px;color:#354b61;font-size:.85rem;font-weight:600;background:#f8fafc;min-height:42px}
+.module-card-options a:hover{background:#edf4e4;border-color:#a5b894}
+.module-card-options a:focus-visible{outline:2px solid #54816b;outline-offset:2px}
+.mission{background:white;color:#10274d;border:1px solid #ccddf3;border-radius:19px;box-shadow:0 8px 24px #1a538509}
+.mission-heading{padding:25px 26px 0}
+.mission-heading .eyebrow{color:#126a9b;font-size:.64rem;letter-spacing:.09em}
+.mission-heading h2{color:#10274d;font-size:1.65rem;max-width:620px;margin:12px 0}
+.mission-heading p{color:#536b86;font-size:.9rem}
+.mission-video{margin:20px 26px 0;border:1px solid #c5d7ed;border-radius:12px;background:#07172b}
+.simulation-bar{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:10px 14px;border-bottom:1px solid #254667;background:#0c2544;color:#bcd9ef;font:10px Consolas,monospace;letter-spacing:.07em}
+.simulation-bar>span:first-child{display:flex;align-items:center;gap:7px}
+.simulation-dot{width:6px;height:6px;border-radius:50%;background:#43c7ec}
+.mission-video video{height:290px;background:#07172b}
+.mission-bottom{padding:20px 26px 24px;flex-wrap:wrap}
+.mission-bottom p{color:#526782;font-size:.75rem}
+.section-title h2{font-weight:750}
+.course-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.course-card{border-color:#d2e2f6;border-radius:16px;box-shadow:0 4px 16px #1c4e8e04}
+.course-card:hover{border-color:#83b7f0;box-shadow:0 10px 25px #125bce12;transform:translateY(-3px)}
+.course-top{height:146px;color:#0e6997;background-color:#eaf5ff;background-image:linear-gradient(#258fca12 1px,transparent 1px),linear-gradient(90deg,#258fca12 1px,transparent 1px);background-size:20px 20px;border-bottom:1px solid #d8e7f7}
+.course-top::after{content:"";position:absolute;right:18px;top:18px;width:28px;height:3px;background:#168bd6;border-radius:2px}
+.course-top svg{width:56px;height:56px;stroke-width:1.35;filter:drop-shadow(0 4px 0 #ffffff)}
+.course-top .eyebrow{color:#245c88;background:#ffffffd9;padding:3px 7px;border:1px solid #d5e6f5;border-radius:5px;font-size:.62rem}
+.tint-1{background-color:#edf8fa;color:#08758b}
+.tint-1::after{background:#0c93a9}
+.tint-2{background-color:#eff2ff;color:#3159b1}
+.tint-2::after{background:#637ad6}
+.course-card:last-child .course-top::after{background:#ee6c23}
+.module-meeting{color:#4b6a88;font-size:.74rem}
+.course-body{padding:21px}
+.course-body h3{font-size:1.15rem;font-weight:750}
+.course-body p{font-size:.9rem}
+.course-footer{font-size:.78rem;color:#587492}
+.module-card-options{padding:0 21px 21px;gap:8px}
+.module-card-options a{border-color:#d7e5f6;background:#f8fbff;color:#24568c;border-radius:9px;font-size:.82rem}
+.module-card-options a:hover{background:#eaf3ff;border-color:#8dbbed}
+.module-card-options a>svg{color:#1474cc}
+.module-card-options a:last-child>svg{color:#d75b17}
+.stat{background:white;border-color:#d5e3f5;border-radius:12px}
+.stat b{color:#125bce}
+.course-main:focus-visible,.module-card-options a:focus-visible{outline:3px solid #1685e3;outline-offset:3px}
+@media(min-width:1500px){.course-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+.course-body{padding:18px}
+.module-card-options{padding:0 18px 18px}
+.course-body p{min-height:66px}
+}
+@media(max-width:1100px){.mission-heading h2{font-size:1.45rem}
+.mission-heading,.mission-bottom{padding-left:20px;padding-right:20px}
+.mission-video{margin-left:20px;margin-right:20px}
+}
+@media(max-width:600px){.course-grid{grid-template-columns:minmax(0,1fr)}
+.mission-heading{padding:20px 18px 0}
+.mission-heading h2{font-size:1.4rem}
+.mission-heading .eyebrow{font-size:.54rem;letter-spacing:.03em}
+.mission-video{margin:18px 14px 0}
+.mission-video video{height:230px}
+.mission-bottom{padding:18px}
+.simulation-bar{font-size:8px;padding:9px 10px;letter-spacing:0}
+.section-title h2{font-size:1.3rem}
+.section-title .text-link{font-size:.78rem}
+.course-top{height:140px}
+}
+.mission-video{background:#fff}
+.mission-video video{display:block;width:100%;height:clamp(300px,32vw,440px);object-fit:contain;object-position:center;background:#fff}
+.simulation-bar{background:#f4f8ff;border-bottom-color:#d5e3f5;color:#24568c}
+.simulation-dot{background:#125bce}
+@media(max-width:600px){.mission-video video{height:auto;aspect-ratio:1;max-height:none}
+}
+.subject-footer-card{position:relative;overflow:hidden;border-radius:15px;border:1px solid #234d80;background:linear-gradient(145deg,#0b2858,#12477f);padding:20px 16px;color:#fff;flex-shrink:0}
+.subject-footer-card::before{content:"";position:absolute;top:0;right:0;width:60px;height:4px;background:#ff6a1a}
+.subject-footer-card strong,.subject-footer-card span{display:block;color:#fff;line-height:1.6}
+.subject-footer-card strong{font-size:.91rem;font-weight:650;letter-spacing:-.02em}
+.subject-footer-card span{font-size:.8rem;margin-top:5px}
+.resource-hero{position:relative;display:flex;align-items:center;justify-content:space-between;gap:32px;overflow:hidden;padding:38px 42px;margin-bottom:26px;border:1px solid #174b83;border-radius:20px;background:linear-gradient(115deg,#0c2b56 10%,#104779 100%);color:#fff}
+.resource-hero::before{content:"";position:absolute;inset:0;pointer-events:none;background-image:linear-gradient(#73ceff0c 1px,transparent 1px),linear-gradient(90deg,#73ceff0c 1px,transparent 1px);background-size:26px 26px;mask-image:linear-gradient(90deg,transparent,#000)}
+.resource-hero::after{content:"";position:absolute;top:0;right:44px;height:4px;width:94px;background:#ff7c30}
+.resource-hero-copy{max-width:630px;position:relative}
+.resource-hero .eyebrow{color:#8eddf6;font-size:.65rem;letter-spacing:.14em}
+.resource-hero h1{font-size:clamp(2rem,3.3vw,3rem);font-weight:760;line-height:1.16;margin:17px 0}
+.resource-hero h1>span{color:#a3e3ff}
+.resource-hero p{color:#d2e2f1;max-width:560px;line-height:1.8;font-size:.92rem}
+.resource-hero-meta{display:flex;gap:20px;align-items:center;flex-wrap:wrap;margin-top:25px}
+.resource-hero-meta>span{display:flex;align-items:center;gap:7px;font-size:.76rem;color:#e5f2ff}
+.resource-hero-meta>span:last-child{padding:4px 10px;border:1px solid #729dbe66;border-radius:5px;font:600 .65rem Consolas,monospace;color:#ffba85}
+.resource-hero-art{position:relative;width:230px;height:235px;flex-shrink:0;display:flex;align-items:center;justify-content:center;margin-right:8px}
+.resource-book-back{position:absolute;inset:11px 15px 26px 25px;border:1px solid #89badc;border-radius:8px;background:#c5e5f4;transform:rotate(12deg)}
+.resource-book{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;width:165px;height:205px;transform:rotate(-7deg);border-radius:5px 12px 12px 5px;border-left:9px solid #b8d8ee;background:#f5fbff;color:#0e5082;box-shadow:0 12px 22px #001c3f45}
+.resource-book .eyebrow{font-size:.52rem;color:#4f789d;letter-spacing:.1em}
+.resource-book strong{font-size:.91rem}
+.resource-book>span:last-of-type{font:600 .5rem Consolas,monospace;letter-spacing:.1em}
+.resource-book i{height:25px;width:22px;position:absolute;top:0;right:14px;background:#f57b2b;clip-path:polygon(0 0,100% 0,100% 100%,50% 73%,0 100%)}
+.resource-art-note{position:absolute;bottom:0;left:21px;color:#b4dbf0;font:600 .58rem Consolas,monospace;letter-spacing:.12em}
+.resource-results-heading{display:flex;align-items:center;justify-content:space-between;gap:18px;margin:26px 0 18px}
+.resource-results-heading h2{font-size:1.27rem;color:#143b68}
+.resource-results-heading p{font-size:.8rem;color:#617c9c;margin-top:6px}
+.resource-results-heading>.text-link{font-size:.78rem;white-space:nowrap}
+@media(max-width:1180px){.resource-hero{padding:30px}
+.resource-hero-art{width:190px}
+}
+@media(max-width:700px){.resource-hero{padding:26px 23px;border-radius:15px}
+.resource-hero-art{display:none}
+.resource-hero h1{font-size:2.15rem}
+.resource-hero .eyebrow{font-size:.55rem;letter-spacing:.08em}
+.resource-hero-meta{gap:13px}
+.resource-hero-meta>span{font-size:.7rem}
+.resource-results-heading{align-items:flex-start}
+.resource-results-heading h2{font-size:1.15rem}
+.resource-results-heading p{font-size:.72rem}
+}
+@media(max-width:520px){.resource-hero-meta>span:last-child{font-size:.6rem}
+}
+@media screen and (max-width:767px){.course-grid{grid-template-columns:minmax(0,1fr);gap:16px}
+.course-top{height:125px}
+.course-body{padding:19px}
+.course-body p{min-height:0}
+.module-card-options{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;padding:0 16px 16px}
+.module-card-options a{font-size:12px;padding:11px 9px;gap:7px;min-height:48px;line-height:1.45}
+.section-title>div{min-width:0}
+.section-title{align-items:flex-start;flex-wrap:wrap;gap:10px;margin-top:26px}
+.section-title .text-link{min-height:44px;font-size:14px}
+.mission-heading .eyebrow{font-size:10px;line-height:1.6}
+.mission-bottom{gap:12px}
+.mission-bottom>.action{width:100%}
+.rubric-grid{grid-template-columns:minmax(0,1fr)}
+.resource-hero{padding:24px 20px}
+.resource-hero h1{font-size:29px}
+.resource-results-heading{flex-wrap:wrap;gap:6px}
+.resource-results-heading>.text-link{min-height:44px}
+.stats{gap:7px}
+.stat{padding:13px 9px}
+.stat span{font-size:12px}
+}
+@media screen and (max-width:359px){.module-card-options a{gap:5px}
+}
+:root{--border:#d5e3f5}.course-card{padding:0}.course-main{display:block;color:var(--ink)}.course-main:hover{background:white}.course-body progress{display:block;width:100%;height:6px;border:0;border-radius:8px;overflow:hidden;margin:16px 0;background:#d4e2f6}.course-body progress::-webkit-progress-bar{background:#d4e2f6}.course-body progress::-webkit-progress-value{background:#125bce}.course-footer{display:flex;justify-content:space-between}.course-top .ico{color:inherit}.course-footer span:last-child,.panelicon{color:#125bce}.course-body p{min-height:0}.course-top .module-meeting{position:absolute;bottom:10px;left:19px}.mission-video{overflow:hidden}.mission-video video{width:100%;height:clamp(255px,27vw,410px);background:white}.mission-bottom p{margin:0}.section-title h2{margin:0}.section-title>a{white-space:nowrap;font-weight:650}.journey h3,.tip b{display:flex;align-items:center;justify-content:space-between}.mission-bottom a{color:white}.topline{display:flex;align-items:center;justify-content:space-between;gap:12px;background:white;border-top:3px solid #125bce;border-bottom:1px solid var(--line);margin-left:var(--side);padding:12px clamp(18px,3vw,48px);min-height:70px}.crumb{font-size:.9rem;color:var(--sub)}.crumb b{color:var(--ink)}.fusionbadge{display:inline-block;background:linear-gradient(135deg,#ffac42,#dc4a02);border-radius:6px;color:white;font-size:1.2rem;font-style:italic;font-weight:800;padding:0 8px}.edition{display:flex;gap:10px;align-items:center}.edition small{display:block;color:var(--sub)}.localnotice{background:#edf5ff;color:#385a7f;border:1px solid var(--line);border-radius:10px;padding:12px 16px;margin:18px 0}.filters{display:flex;align-items:end;gap:16px;flex-wrap:wrap;margin:16px 0}.filters label{display:grid;gap:5px;flex:1 1 170px;font-size:.88rem}.filters input{min-height:44px;border-radius:9px;border:1px solid var(--line);padding:9px 12px;font:inherit}.resultgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr));gap:14px}.resultgrid .card{display:flex;flex-direction:column;gap:8px}.resultgrid .card .action{margin-top:auto}.stats .stat{padding:17px;border:1px solid var(--line)}.paperhead{display:flex;gap:12px;align-items:center}.paperhead .ico{background:#eef5ff;color:#125bce;border-radius:10px;padding:8px;width:42px;height:42px}.studio-clinic{padding:18px;margin:12px 0}.studio-clinic summary{cursor:pointer}.studio-clinic p{margin:12px 0}.pageEnd{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;border-top:2px solid #c8dff7;padding-top:18px}.steps{background:#e7f0fc;border:1px solid var(--line);border-radius:12px;padding:5px}.steps button:not([aria-current=step]){background:transparent;border-color:transparent}.resource-hero{margin-bottom:16px}.resource-hero-copy h1{margin:10px 0 14px}.card .eyebrow{color:#15649d}.topline a{color:#345778}.actions a.active{color:white}.resource-book .ico{width:52px;height:52px}.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(135px,1fr));gap:12px;margin:18px 0}.hero{min-height:165px}.railfoot{position:relative;overflow:hidden;border-top:1px solid #244d7e}.railfoot:after{content:'';position:absolute;right:0;top:0;width:55px;height:4px;background:#ff761c}.course-grid a:not(.course-main):hover{color:#125bce}
+@media(max-width:760px){.topline{margin-left:0;min-height:42px;padding:6px 14px}.edition small,.edition b,.topline .optional{display:none}.fusionbadge{font-size:1rem}.section-title{align-items:start}.section-title a{font-size:.8rem}.course-grid{grid-template-columns:1fr}.hero{min-height:0}.resource-hero{padding:24px 18px}.filters{gap:10px}.mission-bottom{align-items:start}.railfoot{display:none}}
+
+.tools{gap:4px}
+.tools>button{display:inline-flex;align-items:center;justify-content:center;min-height:38px;padding:5px 7px;font-size:.75rem}
+.tools>button[hidden],#spin[aria-pressed=false] .pause-icon,#spin[aria-pressed=true] .play-icon{display:none}
+#cut[data-active=true]{border-color:#58c8eb}
+#sectionMenu{flex-basis:100%;display:flex;flex-wrap:wrap;gap:6px;justify-content:center}
+#sectionMenu[hidden]{display:none}
+#flipSection:disabled{opacity:.45;cursor:default}
+.visual canvas{touch-action:none}
+@media(max-height:520px){.visual:fullscreen canvas{height:56vh}}
+</style></head><body>
+<svg aria-hidden="true" width="0" height="0" style="position:absolute"><symbol id="ic-cube" viewBox="0 0 24 24"><path d="M12 2 22 7.5v10L12 23 2 17.5v-10Z M2 7.5 12 13l10-5.5 M12 13v10"/></symbol><symbol id="ic-home" viewBox="0 0 24 24"><path d="M3 3h7v8H3z M14 3h7v5h-7z M3 15h7v6H3z M14 12h7v9h-7z"/></symbol><symbol id="ic-book" viewBox="0 0 24 24"><path d="M12 5Q7 2 3 4v15q5-2 9 1 4-3 9-1V4q-5-2-9 1v15"/></symbol><symbol id="ic-library" viewBox="0 0 24 24"><path d="M4 4v16 M8 4v16 M12 6v14 M16 5l5 14"/></symbol><symbol id="ic-help" viewBox="0 0 24 24"><path d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0 M9 9a3 3 0 1 1 5 2q-2 1-2 3 M12 17h.01"/></symbol><symbol id="ic-folder" viewBox="0 0 24 24"><path d="M2 7V5h7l2 3h10v2 M2 8v11h17l3-9H7l-2 3"/></symbol><symbol id="ic-progress" viewBox="0 0 24 24"><path d="M3 20v-4 M8 20v-6 M13 20v-9 M18 20v-7 M2 12l6-5 4 2 9-7"/></symbol></svg><a class="skip" href="#main" onclick="document.getElementById('main').focus();return false">Lewati ke isi</a><aside class="sidebar"><a class="brand" href="#beranda"><span class="badge"><svg class="ico" aria-hidden="true"><use href="#ic-cube"/></svg></span><span><b>Parametra Lab</b><small>Fusion Learning Studio</small></span></a><button class="menuBtn" id="menuBtn" aria-expanded="false" aria-controls="rail">☰ Menu</button><nav id="rail" class="rail" aria-label="Navigasi utama"><p>RUANG BELAJAR</p><a data-nav="beranda" href="#beranda"><svg class="ico" aria-hidden="true"><use href="#ic-home"/></svg>Beranda</a><a data-nav="modul" href="#modul"><svg class="ico" aria-hidden="true"><use href="#ic-book"/></svg>Modul belajar</a><a data-nav="pustaka" href="#pustaka"><svg class="ico" aria-hidden="true"><use href="#ic-library"/></svg>Pustaka materi</a><a data-nav="lab" href="#lab"><svg class="ico" aria-hidden="true"><use href="#ic-cube"/></svg>Lab 3D</a><a data-nav="klinik" href="#klinik"><svg class="ico" aria-hidden="true"><use href="#ic-help"/></svg>Klinik kesalahan</a><a data-nav="portofolio" href="#portofolio"><svg class="ico" aria-hidden="true"><use href="#ic-folder"/></svg>Portofolio</a><a data-nav="progres" href="#progres"><svg class="ico" aria-hidden="true"><use href="#ic-progress"/></svg>Progres saya</a><p>RUANG GURU</p><a data-nav="guru" href="#guru"><svg class="ico" aria-hidden="true"><use href="#ic-progress"/></svg>Ruang tinjauan</a><a data-nav="perangkat" href="#perangkat"><svg class="ico" aria-hidden="true"><use href="#ic-folder"/></svg>Perangkat ajar</a></nav><div class="railfoot"><b>TFLM–Perancangan</b><small>XI · Teknik Pemesinan</small></div></aside><header class="topline"><div class="crumb"><a href="#beranda">Parametra Lab</a>　›　<b id="crumbTitle">Beranda</b></div><div class="edition"><span class="fusionbadge">F</span><span><b>Autodesk Fusion</b><small>Studio belajar · Penyimpanan lokal</small></span></div></header><main id="main" tabindex="-1"><div id="home"><div class="hero"><div><div class="eyebrow">Ruang praktik digital · Teknik Pemesinan</div><h1>Rancang idemu.<br><span class="teal">Wujudkan dengan <span class="orange">Fusion.</span></span></h1><p>Pelajari langkahnya. Rancang komponennya. Lihat geraknya.</p></div><div class="seal"><svg class="ico" aria-hidden="true"><use href="#ic-cube"/></svg><small class="micro">Sketch / Model / Assembly</small></div></div>
+<div class="homegrid"><section class="mission"><div class="mission-heading"><p class="eyebrow">Pengenalan → Sketch → Part → Assembly</p><h2>Dari sketch pertama, hingga rakitan bergerak.</h2><p>Kenali Fusion, kuasai sketsa 2D, buat part 3D, lalu susun assembly piston.</p></div><div class="mission-video"><div class="bar micro"><span>● Preview assembly</span><span>Piston · Fusion</span></div><video id="piston" muted playsinline loop controls preload="auto" aria-label="Animasi gerakan rakitan piston dari Autodesk Fusion" src="data:video/mp4;base64,__VIDEO__"></video></div><div class="mission-bottom"><a class="action primary" href="#intro">Mulai perjalanan →</a><p>4 tahap · 11 jobsheet latihan · 2 acuan</p></div></section>
+<div><div class="card journey"><h3>Peta perjalananmu <svg class="ico" aria-hidden="true"><use href="#ic-book"/></svg></h3><div id="journey"></div></div><div class="tip"><b>Belajar sesuai ritmemu.</b><p>Buka panduan di HP, praktikkan di komputer. Petunjuk bertingkat siap membantu saat kamu menemui kendala.</p></div></div></div><div class="section-title"><div><h2>Satu langkah lebih mahir.</h2><p>Mulai dari dasar, lanjutkan sampai rakitanmu bergerak.</p></div><a href="#modul/daftar">Semua modul →</a></div><div id="homeCourses" class="course-grid"></div><p class="localnotice">Progres menunjukkan pemeriksaan mandiri di perangkat ini. Keterampilan dinilai guru melalui hasil praktik.</p></div>
+<div id="listing" hidden><div class="pagetitle"><p class="eyebrow">Fusion Learning Studio</p><h1 id="listTitle"></h1><p id="listDesc"></p></div><div id="listBody"></div></div>
+<div id="introPage" hidden><p class="eyebrow"><a href="#modul/daftar">Semua modul</a> / 01</p><h1>Pengenalan Fusion</h1><details class="guide" open><summary>Pengenalan Fusion · Interface Autodesk Fusion</summary><img id="guideImage" alt="Antarmuka Fusion dengan penanda 1 hingga 9"><ol id="guideList"></ol></details><section class="card" id="introPrep"><p class="eyebrow">Modul pembelajaran · Persiapan</p><h2>Siapkan ruang kerjamu.</h2><ol><li>Buka ruang kerja Design. Kenali Browser, Canvas, dan ViewCube.</li><li>Periksa satuan di Document Settings dan cocokkan dengan jobsheet.</li><li>Baca gambar kerja, tentukan bidang sketsa, lalu catat urutan langkah.</li></ol></section><a class="action" href="#modul/sketch-1">Lanjut ke Sketch 2D →</a></div><div id="practice" hidden><div class="pagetitle"><p class="eyebrow"><a href="#modul/daftar">Semua modul</a> / Ruang praktik</p><h1 id="stageTitle"></h1><p>Pilih jobsheet, amati bentuknya, lalu kerjakan desain di Autodesk Fusion.</p></div><div class="choose"><label for="task">Pindah latihan</label><select id="task"></select></div><nav class="steps" aria-label="Langkah belajar"><button data-step="0">01 · Baca gambar</button><button data-step="1">02 · Rencana kerja</button><button data-step="2">03 · Klinik kesalahan</button><button data-step="3">04 · Periksa hasil</button></nav>
+<article id="workspace"><section><div id="sheetGrid" class="sheetGrid"></div><h3 id="partTitle"></h3><div class="pos"><b>Posisi PDF:</b><button id="below" aria-pressed="true">PDF di bawah</button><button id="beside" aria-pressed="false">PDF di kanan</button></div>
+<div class="stageGrid" id="stageGrid"><div><div class="visual" id="visual"><div class="hud" id="hud"><b class="micro" id="meshLabel"></b>Seret untuk memutar · Gulir untuk zoom</div><canvas id="mesh" aria-label="Pratinjau model 3D; gunakan tombol tampak atau putar"></canvas><img id="flat" alt="" hidden><div class="tools" id="controls" role="group" aria-label="Kontrol model 3D">
+<button id="spin" aria-label="Putar otomatis 360°" title="Putar otomatis 360°" aria-pressed="false"><svg aria-hidden="true" width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path class="play-icon" d="M3 2 14 8 3 14Z"/><path class="pause-icon" d="M4 2.5h2v11H4zM10 2.5h2v11h-2z"/></svg></button>
+<button data-view="in" aria-label="Perbesar model" title="Perbesar">+</button><button data-view="out" aria-label="Perkecil model" title="Perkecil">−</button>
+<button data-view="front">Depan</button><button data-view="top">Atas</button><button data-view="side">Samping</button>
+<button data-view="iso" aria-label="Reset tampilan" title="Kembali ke tampak isometri"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4v6h6M3.7 9a8.5 8.5 0 1 1-.2 6"/></svg></button>
+<button id="cut" aria-expanded="false" aria-controls="sectionMenu" aria-label="Pilih bidang potong" title="Pilih bidang potong">
+<svg aria-hidden="true" width="22" height="22" viewBox="0 0 28 28" fill="none"><path d="M7 5h17v18H7zM7 14h17" stroke="currentColor"/><path d="M4 3h9v22H4z" fill="#39b9ff" fill-opacity=".25" stroke="#39b9ff"/><path d="M2 8V1h7M2 20v7h7M16 1v26" stroke="#39b9ff"/></svg>
+</button><button id="expand" aria-label="Layar penuh" title="Layar penuh"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9V4h5m8 0h5v5m0 6v5h-5m-8 0H3v-5"/></svg></button>
+<div id="sectionMenu" role="group" aria-label="Pilihan bidang potong" hidden>
+<button data-plane="none" aria-pressed="true">Utuh</button><button data-plane="XY" aria-pressed="false">XY</button><button data-plane="XZ" aria-pressed="false">XZ</button><button data-plane="YZ" aria-pressed="false">YZ</button>
+<button id="flipSection" aria-pressed="false" disabled>Balik sisi</button></div></div></div><div class="actions"><a id="stl" class="action" download>↓ Unduh STL</a><a id="pdf" class="action primary" target="_blank" rel="noopener">Buka jobsheet PDF</a><a id="pdfDownload" class="action" download>↓ Unduh PDF</a></div></div><div class="paper"><div class="bar micro">Gambar kerja · PDF asli</div><iframe id="pdfFrame" title="Gambar kerja dari jobsheet terpilih" loading="lazy"></iframe></div></div><p class="note" id="viewPrompt"></p></section><section hidden><p class="eyebrow">02 / Rencanakan</p><h2>Susun langkah kerja</h2><p id="instruction"></p>
+<label for="plan">Apa langkah pertamamu? Mengapa?</label><textarea id="plan" placeholder="Bidang atau acuan yang saya pilih …, karena …"></textarea>
+<h3>Petunjuk bertingkat</h3><p>Coba dahulu. Buka satu petunjuk bila perlu.</p><ol id="hints" class="hint" aria-live="polite"></ol><button id="nextHint">Buka petunjuk 1</button></section>
+<section hidden><p class="eyebrow">03 / Perbaiki</p><h2>Klinik kesalahan</h2><p>Pilih gejala yang paling dekat dengan masalahmu di Fusion.</p><label for="issue">Gejala</label> <select id="issue"></select><h3>Kemungkinan penyebab</h3><p id="cause"></p><h3>Langkah perbaikan</h3><p id="repair"></p>
+<label for="attempt">Apa yang kamu coba? Bagaimana hasilnya?</label><textarea id="attempt" placeholder="Saya menemukan …, mencoba …, lalu memeriksa …"></textarea></section>
+<section hidden><p class="eyebrow">04 / Verifikasi</p><h2>Periksa hasil pekerjaan</h2><p>Buka gambar kerja di atas dan bandingkan dengan desainmu di Fusion. Centang hanya yang sudah kamu periksa sendiri.</p><div class="checks" id="checks"></div><p id="progress" aria-live="polite"></p>
+<label for="review">Bagian yang sudah sesuai atau masih perlu diperbaiki</label><textarea id="review" placeholder="Bagian yang saya periksa …; hasilnya …"></textarea></section>
+</article><p class="note" id="storageNote">Catatan tersimpan di browser ini per jobsheet. Tidak dikirim ke guru. Pada komputer bersama, hindari menulis data pribadi.</p>
+</div><footer class="pageEnd"><span>Parametra Lab · Dari jobsheet hingga model bergerak.</span><span>SMK Muhammadiyah 3 Yogyakarta</span></footer></main><script id="materials" type="application/json">__MATERIALS__</script><script>__VIEWER__</script><script>__APP__</script></body></html>

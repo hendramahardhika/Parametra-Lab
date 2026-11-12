@@ -1,0 +1,10 @@
+{
+  "name": "parametra-lab",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:offline": "node local/build.mjs",
+    "build": "npm run build:offline",
+    "dev": "node local/build.mjs --dev"
+  }
+}
