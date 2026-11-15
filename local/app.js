@@ -36,11 +36,11 @@ for(const [stage,label] of Object.entries(groupNames)){
 $('guideImage').src='data:image/jpeg;base64,'+materials.interfaceImage;
 for(const part of materials.guide){const li=document.createElement('li');li.textContent=part;$('guideList').append(li)}
 function loadTask(id){
-  current=materials.tasks.find(t=>t.id===id)||materials.tasks.find(t=>t.id==='part-4');
+  current=materials.tasks.find(t=>t.id===id)||materials.tasks.find(t=>t.id==='part-2');
   $('task').value=current.id;state=read(current.id);
   const blobUrl=(b,type)=>URL.createObjectURL(new Blob([Uint8Array.from(atob(b),c=>c.charCodeAt(0))],{type}));
   if(pdfUrl)URL.revokeObjectURL(pdfUrl);
-  pdfUrl=blobUrl(current.pdf,'application/pdf');$('pdf').href=$('pdfDownload').href=pdfUrl;$('pdfDownload').download=current.title+'.pdf';$('pdfFrame').src=pdfUrl+'#toolbar=1';$('pdfFrame').title='Gambar kerja: '+current.title;
+  pdfUrl=blobUrl(current.pdf,'application/pdf');$('pdf').href=$('pdfDownload').href=pdfUrl;$('pdfDownload').download=current.title+'.pdf';$('pdfFrame').src=pdfUrl+'#page=1&toolbar=1&navpanes=0&view=Fit';$('pdfFrame').title='Gambar kerja: '+current.title;
   if(stlUrl)URL.revokeObjectURL(stlUrl);stlUrl=current.model?blobUrl(current.model,'model/stl'):null;
   $('stl').hidden=$('hud').hidden=!stlUrl;if(stlUrl){$('stl').href=stlUrl;$('stl').download=current.title+'.stl'}else $('stl').removeAttribute('href');
   $('meshLabel').textContent=current.title+'.stl';$('stageTitle').textContent=stages[current.stage].name;
@@ -92,7 +92,7 @@ document.querySelectorAll('[data-view]').forEach(b=>b.onclick=()=>{
 $('cut').onclick=()=>toggleSectionMenu($('sectionMenu').hidden);
 document.querySelectorAll('[data-plane]').forEach(b=>b.onclick=()=>selectPlane(b.dataset.plane,false));
 $('flipSection').onclick=()=>selectPlane(document.querySelector('[data-plane][aria-pressed="true"]').dataset.plane,$('flipSection').getAttribute('aria-pressed')!=='true');
-document.addEventListener('pointerdown',e=>{
+document.addEventListener('click',e=>{
   if(!$('sectionMenu').hidden&&!e.target.closest('#sectionMenu,#cut'))toggleSectionMenu(false);
 });
 $('controls').addEventListener('keydown',e=>{
@@ -101,7 +101,7 @@ $('controls').addEventListener('keydown',e=>{
 const stages={
   intro:{name:'Pengenalan Fusion',desc:'Antarmuka, navigasi, satuan & penyimpanan',url:'intro'},
   sketch:{name:'Sketch 2D',desc:'Profil, dimensi & constraint · 2 jobsheet',url:'modul/sketch-1'},
-  part:{name:'Membuat part 3D',desc:'Dari sketsa menjadi benda solid · 4 jobsheet',url:'modul/part-3'},
+  part:{name:'Membuat part 3D',desc:'Dari sketsa menjadi benda solid · 5 jobsheet',url:'modul/part-2'},
   assembly:{name:'Assembly',desc:'5 komponen piston & 2 dokumen acuan',url:'modul/assembly-1'}
 };
 function taskLabel(t){const n=t.id.split('-').pop();return /^\d+$/.test(n)?'Jobsheet '+n+' · '+t.title:t.title}
@@ -155,7 +155,7 @@ function shelf(wrap,stage,teacher=false){
 }
 function clinicPage(wrap){
  wrap.className='';const label=el('label','Cari kendala'),q=el('input');q.type='search';q.placeholder='Misalnya: sketsa, joint…';label.append(q);const filter=el('div',undefined,'filters card');filter.append(label);
- const rows=el('div');wrap.append(filter,rows);function update(){rows.replaceChildren();for(const [name,cause,repair,stage] of materials.clinic.filter(r=>r.join(' ').toLowerCase().includes(q.value.toLowerCase().trim()))){const block=el('details',undefined,'card studio-clinic');block.append(el('summary',name),el('p','Kemungkinan penyebab: '+cause),el('p','Coba langkah ini: '+repair),linkTo('Catat percobaan perbaikan →',(stages[stage]?.url||'modul/part-3')+'/2'));rows.append(block)}if(!rows.childNodes.length)rows.append(el('p','Kendala belum ditemukan. Catat gejalanya dan tanyakan kepada guru.','localnotice'))}q.oninput=update;update();
+ const rows=el('div');wrap.append(filter,rows);function update(){rows.replaceChildren();for(const [name,cause,repair,stage] of materials.clinic.filter(r=>r.join(' ').toLowerCase().includes(q.value.toLowerCase().trim()))){const block=el('details',undefined,'card studio-clinic');block.append(el('summary',name),el('p','Kemungkinan penyebab: '+cause),el('p','Coba langkah ini: '+repair),linkTo('Catat percobaan perbaikan →',(stages[stage]?.url||'modul/part-2')+'/2'));rows.append(block)}if(!rows.childNodes.length)rows.append(el('p','Kendala belum ditemukan. Catat gejalanya dan tanyakan kepada guru.','localnotice'))}q.oninput=update;update();
 }
 
 function listing(mode,filterStage){
@@ -178,7 +178,7 @@ function listing(mode,filterStage){
   if(mode==='portofolio')for(const [k,label] of [['plan','Rencana'],['attempt','Perbaikan'],['review','Refleksi']])if(s[k])info.append(el('p',label+': '+s[k]));
   const link=el('a',mode==='progres'?'Periksa':'Buka latihan','action');link.href='#modul/'+t.id+(mode==='progres'?'/3':'');row.append(info,link);wrap.append(row);seen++;
  }
- if(!seen){wrap.append(el('h3','Belum ada catatan latihan'),el('p','Tulis rencana pada salah satu jobsheet. Catatanmu akan muncul di sini.'));const l=el('a','Mulai latihan','action primary');l.href='#modul/part-3/1';wrap.append(l)}
+ if(!seen){wrap.append(el('h3','Belum ada catatan latihan'),el('p','Tulis rencana pada salah satu jobsheet. Catatanmu akan muncul di sini.'));const l=el('a','Mulai latihan','action primary');l.href='#modul/part-2/1';wrap.append(l)}
 }
 const legacy={'modul/8/part3d':'intro','modul/9/part3d':'modul/sketch-1','modul/10/part3d':'modul/part-3','modul/11/part3d':'modul/assembly-full'};
 function route(){
@@ -186,16 +186,18 @@ function route(){
  if(materials.tasks.some(t=>t.id===hash))hash='modul/'+hash;
  let [mode='beranda',id,step]=hash.split('/');mode=mode||'beranda';
  if(!['beranda','modul','intro','pustaka','lab','klinik','portofolio','progres','guru','perangkat'].includes(mode))mode='beranda';
- if(mode==='modul'&&!id)id='part-3';
- const isPractice=mode==='lab'||(mode==='klinik'&&Boolean(id))||(mode==='modul'&&id!=='daftar');
+ if(mode==='modul'&&!id)id='part-2';
+ const isPractice=(mode==='klinik'&&Boolean(id))||(mode==='modul'&&id!=='daftar');
  if(!isPractice)closeViewerTools();
  $('home').hidden=mode!=='beranda';$('introPage').hidden=mode!=='intro';$('practice').hidden=!isPractice;
- $('listing').hidden=isPractice||mode==='intro'||mode==='beranda';
+ $('labPage').hidden=mode!=='lab';
+ if(mode==='lab')window.parametraLab.mount($('labPage'));else window.parametraLab.unmount();
+ $('listing').hidden=mode==='lab'||isPractice||mode==='intro'||mode==='beranda';
  if(!$('listing').hidden)listing(mode,id);
  if(mode==='beranda')courseCards($('homeCourses'));
- $('crumbTitle').textContent=isPractice?'Praktik terpandu':({beranda:'Beranda',intro:'Pengenalan Fusion',modul:'Modul belajar',klinik:'Klinik kesalahan',pustaka:'Pustaka materi',progres:'Progres saya',portofolio:'Portofolio',guru:'Ruang tinjauan',perangkat:'Perangkat ajar'})[mode];
- if(isPractice){let t=materials.tasks.find(x=>x.id===id)||((mode==='klinik'||(mode==='lab'&&current?.model))&&current)||materials.tasks.find(x=>x.id==='part-3');
-   if(mode==='lab'&&!t.model)t=materials.tasks.find(x=>x.id==='part-3');
+ $('crumbTitle').textContent=isPractice?'Praktik terpandu':({lab:'Lab 3D · Bengkel virtual',beranda:'Beranda',intro:'Pengenalan Fusion',modul:'Modul belajar',klinik:'Klinik kesalahan',pustaka:'Pustaka materi',progres:'Progres saya',portofolio:'Portofolio',guru:'Ruang tinjauan',perangkat:'Perangkat ajar'})[mode];
+ if(isPractice){let t=materials.tasks.find(x=>x.id===id)||((mode==='klinik'||(mode==='lab'&&current?.model))&&current)||materials.tasks.find(x=>x.id==='part-2');
+   if(mode==='lab'&&!t.model)t=materials.tasks.find(x=>x.id==='part-2');
    if(current?.id!==t.id)loadTask(t.id);
    activate(mode==='klinik'?2:Math.max(0,Math.min(3,Number(step)||0)));sheetTiles();
  }

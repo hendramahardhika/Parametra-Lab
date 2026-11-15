@@ -7,7 +7,7 @@ Klik dua kali **index.html** untuk belajar tanpa internet. Semua PDF, mesh STL, 
 Untuk GitHub Pages, **cukup unggah index.html** ke akar repositori tujuan. Pilih penerbitan dari branch yang memuat file itu dengan folder **/(root)**. Jika ingin membagikan hanya website siswa, gunakan repositori kosong dan unggah file tersebut saja. Jangan unggah folder lama, daftar kelas, data penilaian, berkas konfigurasi privat, atau riwayat Git lama.
 
 ## Alur untuk siswa
-Beranda menampilkan peta empat modul dan animasi piston. Pilih **Modul belajar** untuk langsung melihat model 3D **Jobsheet 3 · Dudukan Poros**. Gunakan pilihan Jobsheet 3–6 untuk mengganti komponen, atau **Semua modul** untuk memilih tahap lain. Pada ruang praktik, PDF bisa diletakkan di bawah atau di kanan model pada layar lebar; pada ponsel PDF tersusun di bawah. **Pustaka materi** membuka daftar jobsheet, **Portofolio** merangkum catatan, dan **Progres saya** menampilkan checklist lokal.
+Beranda menampilkan peta empat modul dan animasi piston. Pilih **Modul belajar** untuk langsung melihat model 3D **Jobsheet 2 · Dudukan Poros Sederhana**. Gunakan pilihan Jobsheet 2–6 untuk mengganti komponen, atau **Semua modul** untuk memilih tahap lain. Pada ruang praktik, PDF bisa diletakkan di bawah atau di kanan model pada layar lebar; pada ponsel PDF tersusun di bawah. **Pustaka materi** membuka daftar jobsheet, **Portofolio** merangkum catatan, dan **Progres saya** menampilkan checklist lokal.
 
 1. Pilih jobsheet dan buka gambar kerja PDF. Pada latihan 3D, tekan ▶ untuk memutar model 360° secara berulang dan tekan jeda untuk mengamati detailnya. Buka **Potongan**, lalu pilih **XY**, **XZ**, atau **YZ**. Arsiran menandai bagian padat yang terpotong. Pilih **Balik sisi** untuk melihat separuh lainnya atau **Utuh** untuk menampilkan seluruh model. Latihan sketsa menggunakan gambar 2D.
 2. Tulis rencana. Buka petunjuk satu per satu bila perlu.
@@ -20,3 +20,8 @@ Catatan dan checklist tersimpan per jobsheet di browser/perangkat yang digunakan
 Folder **local/** berisi halaman.html (struktur dan gaya), app.js (alur belajar), viewer.js (pratinjau STL), materi.json (materi dan aset), animation-piston-white.mp4 (animasi piston), dan build.mjs (pembuat HTML mandiri). Lakukan perubahan pada file sumber ini.
 Dengan Node.js dan npm, jalankan **npm run build:offline** setelah mengubah sumber; tidak perlu npm install. Untuk pratinjau, **npm run dev**, lalu buka alamat lokal yang tercetak dan muat ulang setelah perubahan.
 
+
+## Lab 3D
+Menu Lab 3D membuka Ruang desain: gambar garis, persegi, atau lingkaran, atur ukuran, lalu bentuk model. Contoh animasi menyediakan delapan perintah (Extrude, Revolve, Sweep, Loft, Press Pull, Fillet, Chamfer, Shell), masing-masing tujuh langkah. Pilih langkah, Putar/Jeda, atur kecepatan, atau Coba di editor. Draf tersimpan di browser; Unduh proyek menyimpan JSON untuk dibuka kembali. SVG dan STL tersedia dari editor. Ini latihan konsep; pekerjaan sesuai jobsheet tetap dikerjakan di Autodesk Fusion.
+
+Sumber studio asli dipulihkan di local/lab/ dan dikemas dalam local/lab.bundle.js. Build offline biasa tetap tanpa instalasi. Jika menyunting sumber studio, jalankan node local/lab/build.mjs dengan dependensi esbuild, react, react-dom, three, lucide-react, dan sonner tersedia. PARAMETRA_DEPENDENCIES dapat menunjuk folder proyek yang sudah memiliki dependensi tersebut. Setelah itu jalankan npm run build:offline.
